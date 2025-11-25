@@ -8,7 +8,7 @@ End-to-end pipeline that:
 - **Visualizes** in **Preset/Superset**
 
 ![System Diagram]
-<img width="746" height="931" alt="Screenshot 2025-11-25 112424" src="https://github.com/user-attachments/assets/357ae703-7ec1-4a4d-a69b-2c0703174cab" />
+<img width="726" height="912" alt="image" src="https://github.com/user-attachments/assets/5cb1bece-0ebe-40d4-b788-fec971f77869" />
 
 
 ---
