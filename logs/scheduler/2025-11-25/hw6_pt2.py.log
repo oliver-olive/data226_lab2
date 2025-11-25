@@ -2301,3 +2301,59 @@
 [2025-11-25T07:17:17.521+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:17:17.520+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2025-11-25T07:17:17.554+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:17:17.553+0000] {dag.py:4156} INFO - Setting next_dagrun for BuildELT_CTAS to 2025-11-24 02:45:00+00:00, run_after=2025-11-25 02:45:00+00:00
 [2025-11-25T07:17:17.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt2.py took 0.120 seconds
+[2025-11-25T07:17:47.794+0000] {processor.py:186} INFO - Started process (PID=50511) to work on /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:17:47.798+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt2.py for tasks to queue
+[2025-11-25T07:17:47.801+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:17:47.801+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:17:47.815+0000] {processor.py:925} INFO - DAG(s) 'BuildELT_CTAS' retrieved from /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:17:47.852+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:17:47.852+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:17:47.883+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:17:47.883+0000] {dag.py:4156} INFO - Setting next_dagrun for BuildELT_CTAS to 2025-11-24 02:45:00+00:00, run_after=2025-11-25 02:45:00+00:00
+[2025-11-25T07:17:47.913+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt2.py took 0.130 seconds
+[2025-11-25T07:18:18.075+0000] {processor.py:186} INFO - Started process (PID=50544) to work on /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:18:18.078+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt2.py for tasks to queue
+[2025-11-25T07:18:18.081+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:18:18.080+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:18:18.097+0000] {processor.py:925} INFO - DAG(s) 'BuildELT_CTAS' retrieved from /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:18:18.132+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:18:18.131+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:18:18.161+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:18:18.161+0000] {dag.py:4156} INFO - Setting next_dagrun for BuildELT_CTAS to 2025-11-24 02:45:00+00:00, run_after=2025-11-25 02:45:00+00:00
+[2025-11-25T07:18:18.183+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt2.py took 0.116 seconds
+[2025-11-25T07:18:48.315+0000] {processor.py:186} INFO - Started process (PID=50575) to work on /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:18:48.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt2.py for tasks to queue
+[2025-11-25T07:18:48.321+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:18:48.320+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:18:48.331+0000] {processor.py:925} INFO - DAG(s) 'BuildELT_CTAS' retrieved from /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:18:48.364+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:18:48.363+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:18:48.391+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:18:48.391+0000] {dag.py:4156} INFO - Setting next_dagrun for BuildELT_CTAS to 2025-11-24 02:45:00+00:00, run_after=2025-11-25 02:45:00+00:00
+[2025-11-25T07:18:48.413+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt2.py took 0.105 seconds
+[2025-11-25T07:19:18.496+0000] {processor.py:186} INFO - Started process (PID=50606) to work on /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:19:18.498+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt2.py for tasks to queue
+[2025-11-25T07:19:18.502+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:19:18.501+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:19:18.511+0000] {processor.py:925} INFO - DAG(s) 'BuildELT_CTAS' retrieved from /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:19:18.542+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:19:18.542+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:19:18.568+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:19:18.568+0000] {dag.py:4156} INFO - Setting next_dagrun for BuildELT_CTAS to 2025-11-24 02:45:00+00:00, run_after=2025-11-25 02:45:00+00:00
+[2025-11-25T07:19:18.589+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt2.py took 0.101 seconds
+[2025-11-25T07:19:49.070+0000] {processor.py:186} INFO - Started process (PID=50635) to work on /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:19:49.073+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt2.py for tasks to queue
+[2025-11-25T07:19:49.077+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:19:49.077+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:19:49.093+0000] {processor.py:925} INFO - DAG(s) 'BuildELT_CTAS' retrieved from /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:19:49.135+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:19:49.134+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:19:49.170+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:19:49.169+0000] {dag.py:4156} INFO - Setting next_dagrun for BuildELT_CTAS to 2025-11-24 02:45:00+00:00, run_after=2025-11-25 02:45:00+00:00
+[2025-11-25T07:19:49.195+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt2.py took 0.135 seconds
+[2025-11-25T07:20:19.701+0000] {processor.py:186} INFO - Started process (PID=50667) to work on /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:20:19.704+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt2.py for tasks to queue
+[2025-11-25T07:20:19.707+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:20:19.707+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:20:19.717+0000] {processor.py:925} INFO - DAG(s) 'BuildELT_CTAS' retrieved from /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:20:19.752+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:20:19.751+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:20:19.781+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:20:19.781+0000] {dag.py:4156} INFO - Setting next_dagrun for BuildELT_CTAS to 2025-11-24 02:45:00+00:00, run_after=2025-11-25 02:45:00+00:00
+[2025-11-25T07:20:19.804+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt2.py took 0.111 seconds
+[2025-11-25T07:20:49.874+0000] {processor.py:186} INFO - Started process (PID=50699) to work on /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:20:49.876+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt2.py for tasks to queue
+[2025-11-25T07:20:49.882+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:20:49.882+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:20:49.894+0000] {processor.py:925} INFO - DAG(s) 'BuildELT_CTAS' retrieved from /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:20:49.939+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:20:49.938+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:20:49.975+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:20:49.975+0000] {dag.py:4156} INFO - Setting next_dagrun for BuildELT_CTAS to 2025-11-24 02:45:00+00:00, run_after=2025-11-25 02:45:00+00:00
+[2025-11-25T07:20:50.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt2.py took 0.136 seconds
+[2025-11-25T07:21:20.104+0000] {processor.py:186} INFO - Started process (PID=50730) to work on /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:21:20.107+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt2.py for tasks to queue
+[2025-11-25T07:21:20.111+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:21:20.110+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:21:20.129+0000] {processor.py:925} INFO - DAG(s) 'BuildELT_CTAS' retrieved from /opt/airflow/dags/hw6_pt2.py
+[2025-11-25T07:21:20.164+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:21:20.164+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:21:20.193+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:21:20.192+0000] {dag.py:4156} INFO - Setting next_dagrun for BuildELT_CTAS to 2025-11-24 02:45:00+00:00, run_after=2025-11-25 02:45:00+00:00
+[2025-11-25T07:21:20.216+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt2.py took 0.121 seconds
