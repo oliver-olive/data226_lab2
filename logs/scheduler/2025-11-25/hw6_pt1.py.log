@@ -2357,3 +2357,192 @@
 [2025-11-25T07:21:20.293+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:21:20.293+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2025-11-25T07:21:20.325+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:21:20.324+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
 [2025-11-25T07:21:20.347+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.111 seconds
+[2025-11-25T07:21:50.902+0000] {processor.py:186} INFO - Started process (PID=50761) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:21:50.906+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:21:50.909+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:21:50.908+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:21:50.921+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:21:50.955+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:21:50.954+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:21:50.981+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:21:50.981+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:21:51.001+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.107 seconds
+[2025-11-25T07:22:21.185+0000] {processor.py:186} INFO - Started process (PID=50789) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:22:21.188+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:22:21.191+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:22:21.191+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:22:21.202+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:22:21.238+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:22:21.237+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:22:21.268+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:22:21.267+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:22:21.292+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.114 seconds
+[2025-11-25T07:22:51.720+0000] {processor.py:186} INFO - Started process (PID=50820) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:22:51.723+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:22:51.727+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:22:51.727+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:22:51.738+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:22:51.779+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:22:51.778+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:22:51.821+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:22:51.821+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:22:51.844+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.132 seconds
+[2025-11-25T07:23:22.025+0000] {processor.py:186} INFO - Started process (PID=50851) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:23:22.032+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:23:22.035+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:23:22.034+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:23:22.045+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:23:22.079+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:23:22.079+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:23:22.107+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:23:22.107+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:23:22.128+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.110 seconds
+[2025-11-25T07:23:52.289+0000] {processor.py:186} INFO - Started process (PID=50882) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:23:52.292+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:23:52.296+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:23:52.295+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:23:52.308+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:23:52.338+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:23:52.337+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:23:52.364+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:23:52.364+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:23:52.383+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.103 seconds
+[2025-11-25T07:24:22.490+0000] {processor.py:186} INFO - Started process (PID=50912) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:24:22.493+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:24:22.496+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:24:22.496+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:24:22.507+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:24:22.538+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:24:22.537+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:24:22.564+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:24:22.563+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:24:22.582+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.100 seconds
+[2025-11-25T07:24:53.681+0000] {processor.py:186} INFO - Started process (PID=50944) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:24:53.683+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:24:53.686+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:24:53.686+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:24:53.700+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:24:53.737+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:24:53.736+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:24:53.767+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:24:53.767+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:24:53.788+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.115 seconds
+[2025-11-25T07:25:23.975+0000] {processor.py:186} INFO - Started process (PID=50975) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:25:23.981+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:25:23.984+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:25:23.984+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:25:23.996+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:25:24.028+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:25:24.028+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:25:24.055+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:25:24.055+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:25:24.077+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.109 seconds
+[2025-11-25T07:25:54.153+0000] {processor.py:186} INFO - Started process (PID=51006) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:25:54.156+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:25:54.159+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:25:54.159+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:25:54.170+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:25:54.201+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:25:54.200+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:25:54.228+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:25:54.228+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:25:54.248+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.103 seconds
+[2025-11-25T07:26:24.342+0000] {processor.py:186} INFO - Started process (PID=51035) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:26:24.345+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:26:24.348+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:26:24.348+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:26:24.360+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:26:24.396+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:26:24.396+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:26:24.425+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:26:24.425+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:26:24.448+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.114 seconds
+[2025-11-25T07:26:54.533+0000] {processor.py:186} INFO - Started process (PID=51066) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:26:54.536+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:26:54.542+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:26:54.541+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:26:54.558+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:26:54.595+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:26:54.594+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:26:54.624+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:26:54.624+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:26:54.648+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.123 seconds
+[2025-11-25T07:27:24.763+0000] {processor.py:186} INFO - Started process (PID=51097) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:27:24.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:27:24.768+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:27:24.768+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:27:24.782+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:27:24.821+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:27:24.821+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:27:24.860+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:27:24.859+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:27:24.881+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.127 seconds
+[2025-11-25T07:27:55.022+0000] {processor.py:186} INFO - Started process (PID=51128) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:27:55.025+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:27:55.032+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:27:55.031+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:27:55.054+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:27:55.088+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:27:55.087+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:27:55.116+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:27:55.116+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:27:55.141+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.133 seconds
+[2025-11-25T07:28:26.054+0000] {processor.py:186} INFO - Started process (PID=51159) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:28:26.057+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:28:26.064+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:28:26.063+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:28:26.080+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:28:26.115+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:28:26.114+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:28:26.144+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:28:26.144+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:28:26.165+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.118 seconds
+[2025-11-25T07:28:56.335+0000] {processor.py:186} INFO - Started process (PID=51193) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:28:56.337+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:28:56.341+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:28:56.340+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:28:56.351+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:28:56.384+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:28:56.384+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:28:56.412+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:28:56.412+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:28:56.437+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.109 seconds
+[2025-11-25T07:29:26.648+0000] {processor.py:186} INFO - Started process (PID=51224) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:29:26.653+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:29:26.656+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:29:26.655+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:29:26.667+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:29:26.704+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:29:26.703+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:29:26.734+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:29:26.733+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:29:26.761+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.122 seconds
+[2025-11-25T07:29:56.820+0000] {processor.py:186} INFO - Started process (PID=51255) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:29:56.823+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:29:56.827+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:29:56.826+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:29:56.837+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:29:56.870+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:29:56.870+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:29:56.901+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:29:56.901+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:29:56.924+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.112 seconds
+[2025-11-25T07:30:27.040+0000] {processor.py:186} INFO - Started process (PID=51286) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:30:27.043+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:30:27.047+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:30:27.046+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:30:27.058+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:30:27.093+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:30:27.092+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:30:27.122+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:30:27.121+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:30:27.145+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.111 seconds
+[2025-11-25T07:30:57.343+0000] {processor.py:186} INFO - Started process (PID=51317) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:30:57.346+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:30:57.349+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:30:57.349+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:30:57.360+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:30:57.394+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:30:57.393+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:30:57.421+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:30:57.421+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:30:57.443+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.109 seconds
+[2025-11-25T07:31:27.506+0000] {processor.py:186} INFO - Started process (PID=51346) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:31:27.511+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:31:27.516+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:31:27.515+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:31:27.532+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:31:27.566+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:31:27.566+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:31:27.597+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:31:27.597+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:31:27.617+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.119 seconds
+[2025-11-25T07:31:57.689+0000] {processor.py:186} INFO - Started process (PID=51377) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:31:57.691+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:31:57.696+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:31:57.695+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:31:57.710+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:31:57.741+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:31:57.741+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:31:57.767+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:31:57.767+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:31:57.792+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.111 seconds
+[2025-11-25T07:32:28.053+0000] {processor.py:186} INFO - Started process (PID=51408) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:32:28.056+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:32:28.059+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:32:28.059+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:32:28.074+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:32:28.117+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:32:28.116+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:32:28.148+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:32:28.148+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:32:28.168+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.123 seconds
+[2025-11-25T07:32:58.266+0000] {processor.py:186} INFO - Started process (PID=51439) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:32:58.271+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:32:58.275+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:32:58.274+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:32:58.289+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:32:58.332+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:32:58.331+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:32:58.359+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:32:58.359+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:32:58.380+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.122 seconds
+[2025-11-25T07:33:28.474+0000] {processor.py:186} INFO - Started process (PID=51470) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:33:28.477+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:33:28.483+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:33:28.482+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:33:28.498+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:33:28.537+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:33:28.536+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:33:28.570+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:33:28.570+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:33:28.596+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.133 seconds
+[2025-11-25T07:33:58.650+0000] {processor.py:186} INFO - Started process (PID=51501) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:33:58.659+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:33:58.664+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:33:58.663+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:33:58.682+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:33:58.721+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:33:58.721+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:33:58.749+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:33:58.749+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:33:58.770+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.130 seconds
+[2025-11-25T07:34:28.841+0000] {processor.py:186} INFO - Started process (PID=51532) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:34:28.845+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:34:28.849+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:34:28.848+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:34:28.866+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:34:28.902+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:34:28.901+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:34:28.932+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:34:28.931+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:34:28.956+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.123 seconds
+[2025-11-25T07:34:59.120+0000] {processor.py:186} INFO - Started process (PID=51564) to work on /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:34:59.122+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw6_pt1.py for tasks to queue
+[2025-11-25T07:34:59.125+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:34:59.125+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:34:59.140+0000] {processor.py:925} INFO - DAG(s) 'COPY_INTO_DATABASE_FROM_AWS' retrieved from /opt/airflow/dags/hw6_pt1.py
+[2025-11-25T07:34:59.176+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:34:59.176+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-25T07:34:59.203+0000] {logging_mixin.py:190} INFO - [2025-11-25T07:34:59.203+0000] {dag.py:4156} INFO - Setting next_dagrun for COPY_INTO_DATABASE_FROM_AWS to 2025-11-23 08:20:00+00:00, run_after=2025-11-24 08:20:00+00:00
+[2025-11-25T07:34:59.229+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw6_pt1.py took 0.116 seconds
