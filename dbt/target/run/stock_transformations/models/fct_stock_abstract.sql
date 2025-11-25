@@ -2,9 +2,11 @@
   
     
 
-        create or replace transient table USER_DB_BOA.analytics.FCT_STOCK_ABSTRACT
-         as
-        (
+create or replace transient table USER_DB_BOA.analytics.FCT_STOCK_ABSTRACT
+    
+    
+    
+    as (
 
 with base as (
   select
@@ -53,6 +55,8 @@ select
 from rsi
 qualify rn > 30
 order by symbol, dt
-        );
-      
+    )
+;
+
+
   

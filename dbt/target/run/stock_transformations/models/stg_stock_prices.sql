@@ -1,7 +1,10 @@
 
   create or replace   view USER_DB_BOA.analytics.stg_stock_prices
   
-   as (
+  
+  
+  
+  as (
     
 
 with src as (

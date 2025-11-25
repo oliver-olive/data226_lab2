@@ -2652,3 +2652,1361 @@ COMMIT
 [0m06:54:21.002936 [debug] [MainThread]: Command `dbt snapshot` succeeded at 06:54:21.002764 after 8.67 seconds
 [0m06:54:21.003789 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbdcd17a300>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbdad67d040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbdcae7b4d0>]}
 [0m06:54:21.004598 [debug] [MainThread]: Flushing usage events
+[0m23:50:30.923299 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11173e210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1117c7990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1117c7ed0>]}
+
+
+============================== 23:50:30.941423 | 3bfc1cc2-2a0f-4d6c-aa02-60dbe013d5ca ==============================
+[0m23:50:30.941423 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m23:50:30.942537 [debug] [MainThread]: running dbt with arguments {'log_cache_events': 'False', 'debug': 'False', 'printer_width': '80', 'empty': 'False', 'partial_parse': 'True', 'use_colors': 'True', 'write_json': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'invocation_command': 'dbt run', 'target_path': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'profiles_dir': '/Users/oliverzheng/Desktop/Airflow/dbt', 'log_format': 'default', 'cache_selected_only': 'False', 'log_path': '/Users/oliverzheng/Desktop/Airflow/dbt/logs', 'indirect_selection': 'eager', 'static_parser': 'True', 'warn_error': 'None', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'version_check': 'True'}
+[0m23:50:30.948555 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DBT_ACCOUNT'
+[0m23:50:30.955276 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.1412594, "process_in_blocks": "0", "process_kernel_time": 0.464156, "process_mem_max_rss": "96055296", "process_out_blocks": "0", "process_user_time": 1.651655}
+[0m23:50:30.956068 [debug] [MainThread]: Command `dbt run` failed at 23:50:30.955933 after 0.14 seconds
+[0m23:50:30.956682 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1117c7d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1117a9090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d82c410>]}
+[0m23:50:30.957539 [debug] [MainThread]: Flushing usage events
+[0m23:50:31.485875 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:53:51.401966 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1104841d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1104f7f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1104f7fd0>]}
+
+
+============================== 23:53:51.414092 | e262d0bb-e365-46f1-8546-e7c82c97f726 ==============================
+[0m23:53:51.414092 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m23:53:51.414910 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'empty': 'False', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'cache_selected_only': 'False', 'invocation_command': 'dbt run', 'warn_error': 'None', 'no_print': 'None', 'log_cache_events': 'False', 'fail_fast': 'False', 'profiles_dir': '.', 'use_colors': 'True', 'version_check': 'True', 'indirect_selection': 'eager', 'introspect': 'True', 'quiet': 'False', 'partial_parse': 'True', 'log_format': 'default', 'log_path': '/Users/oliverzheng/Desktop/Airflow/dbt/logs', 'debug': 'False', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'use_experimental_parser': 'False'}
+[0m23:53:53.884859 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e262d0bb-e365-46f1-8546-e7c82c97f726', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13c8d1890>]}
+[0m23:53:53.958106 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e262d0bb-e365-46f1-8546-e7c82c97f726', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13ca49b90>]}
+[0m23:53:53.959495 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m23:53:54.154560 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m23:53:54.349089 [info ] [MainThread]: Unable to do partial parsing because of a version mismatch
+[0m23:53:54.349758 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'e262d0bb-e365-46f1-8546-e7c82c97f726', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f9b12d0>]}
+[0m23:53:55.806153 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'FCT_STOCK_ABSTRACT' in the 'models' section of file 'models/schema.yml'
+[0m23:53:56.015478 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.stock_transformations.not_null_FCT_STOCK_ABSTRACT_sessionId.7daf011700' (models/schema.yml) depends on a node named 'FCT_STOCK_ABSTRACT' in package '' which was not found
+[0m23:53:56.016099 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.stock_transformations.unique_FCT_STOCK_ABSTRACT_sessionId.f6068ac72a' (models/schema.yml) depends on a node named 'FCT_STOCK_ABSTRACT' in package '' which was not found
+[0m23:53:56.155677 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e262d0bb-e365-46f1-8546-e7c82c97f726', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13d1c3b10>]}
+[0m23:53:56.304013 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/manifest.json
+[0m23:53:56.307769 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/semantic_manifest.json
+[0m23:53:56.334079 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e262d0bb-e365-46f1-8546-e7c82c97f726', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13d2f5f90>]}
+[0m23:53:56.334741 [info ] [MainThread]: Found 2 models, 1 snapshot, 1 source, 496 macros
+[0m23:53:56.335362 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e262d0bb-e365-46f1-8546-e7c82c97f726', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13d2b5350>]}
+[0m23:53:56.337172 [info ] [MainThread]: 
+[0m23:53:56.337934 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m23:53:56.338680 [info ] [MainThread]: 
+[0m23:53:56.339655 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m23:53:56.344851 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_USER_DB_BOA'
+[0m23:53:56.529813 [debug] [ThreadPool]: Using snowflake connection "list_USER_DB_BOA"
+[0m23:53:56.530332 [debug] [ThreadPool]: On list_USER_DB_BOA: show terse schemas in database USER_DB_BOA
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "connection_name": "list_USER_DB_BOA"} */
+[0m23:53:56.530758 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:53:58.375454 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 1.845 seconds
+[0m23:53:58.378440 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_USER_DB_BOA, now list_USER_DB_BOA_analytics)
+[0m23:53:58.392536 [debug] [ThreadPool]: Using snowflake connection "list_USER_DB_BOA_analytics"
+[0m23:53:58.393035 [debug] [ThreadPool]: On list_USER_DB_BOA_analytics: show objects in USER_DB_BOA.analytics
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "connection_name": "list_USER_DB_BOA_analytics"} */;
+[0m23:53:58.593234 [debug] [ThreadPool]: SQL status: SUCCESS 10 in 0.200 seconds
+[0m23:53:58.595967 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_USER_DB_BOA_analytics, now list_USER_DB_BOA_SNAPSHOT)
+[0m23:53:58.600497 [debug] [ThreadPool]: Using snowflake connection "list_USER_DB_BOA_SNAPSHOT"
+[0m23:53:58.600954 [debug] [ThreadPool]: On list_USER_DB_BOA_SNAPSHOT: show objects in USER_DB_BOA.SNAPSHOT
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "connection_name": "list_USER_DB_BOA_SNAPSHOT"} */;
+[0m23:53:58.762763 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 0.161 seconds
+[0m23:53:58.765504 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e262d0bb-e365-46f1-8546-e7c82c97f726', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13c8fdbd0>]}
+[0m23:53:58.769810 [debug] [Thread-1 (]: Began running node model.stock_transformations.stg_stock_prices
+[0m23:53:58.770474 [info ] [Thread-1 (]: 1 of 2 START sql view model analytics.stg_stock_prices ......................... [RUN]
+[0m23:53:58.771083 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_USER_DB_BOA_SNAPSHOT, now model.stock_transformations.stg_stock_prices)
+[0m23:53:58.771599 [debug] [Thread-1 (]: Began compiling node model.stock_transformations.stg_stock_prices
+[0m23:53:58.779828 [debug] [Thread-1 (]: Writing injected SQL for node "model.stock_transformations.stg_stock_prices"
+[0m23:53:58.781247 [debug] [Thread-1 (]: Began executing node model.stock_transformations.stg_stock_prices
+[0m23:53:58.819164 [debug] [Thread-1 (]: Writing runtime sql for node "model.stock_transformations.stg_stock_prices"
+[0m23:53:58.821954 [debug] [Thread-1 (]: Using snowflake connection "model.stock_transformations.stg_stock_prices"
+[0m23:53:58.822814 [debug] [Thread-1 (]: On model.stock_transformations.stg_stock_prices: create or replace   view USER_DB_BOA.analytics.stg_stock_prices
+  
+  
+  
+  
+  as (
+    
+
+with src as (
+  select
+    upper(symbol)            as symbol,
+    cast(date as date)       as dt,
+    cast(open as float)      as open,
+    cast(high as float)      as high,
+    cast(low  as float)      as low,
+    cast(close as float)     as close,
+    cast(volume as number)   as volume
+  from USER_DB_BOA.RAW.stock_prices
+  where symbol is not null
+    and date   is not null
+    and close  is not null
+),
+dedup as (
+  select
+    symbol, dt, open, high, low, close, volume,
+    row_number() over (partition by symbol, dt order by dt desc) as rn
+  from src
+)
+select
+  symbol, dt, open, high, low, close, volume
+from dedup
+where rn = 1
+  )
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "model.stock_transformations.stg_stock_prices"} */;
+[0m23:53:59.091235 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.268 seconds
+[0m23:53:59.119434 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e262d0bb-e365-46f1-8546-e7c82c97f726', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13d057250>]}
+[0m23:53:59.120482 [info ] [Thread-1 (]: 1 of 2 OK created sql view model analytics.stg_stock_prices .................... [[32mSUCCESS 1[0m in 0.35s]
+[0m23:53:59.121267 [debug] [Thread-1 (]: Finished running node model.stock_transformations.stg_stock_prices
+[0m23:53:59.122273 [debug] [Thread-1 (]: Began running node model.stock_transformations.fct_stock_abstract
+[0m23:53:59.122883 [info ] [Thread-1 (]: 2 of 2 START sql table model analytics.FCT_STOCK_ABSTRACT ...................... [RUN]
+[0m23:53:59.123467 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.stock_transformations.stg_stock_prices, now model.stock_transformations.fct_stock_abstract)
+[0m23:53:59.123908 [debug] [Thread-1 (]: Began compiling node model.stock_transformations.fct_stock_abstract
+[0m23:53:59.127534 [debug] [Thread-1 (]: Writing injected SQL for node "model.stock_transformations.fct_stock_abstract"
+[0m23:53:59.128760 [debug] [Thread-1 (]: Began executing node model.stock_transformations.fct_stock_abstract
+[0m23:53:59.164217 [debug] [Thread-1 (]: Writing runtime sql for node "model.stock_transformations.fct_stock_abstract"
+[0m23:53:59.167268 [debug] [Thread-1 (]: Using snowflake connection "model.stock_transformations.fct_stock_abstract"
+[0m23:53:59.167952 [debug] [Thread-1 (]: On model.stock_transformations.fct_stock_abstract: create or replace transient table USER_DB_BOA.analytics.FCT_STOCK_ABSTRACT
+    
+    
+    
+    as (
+
+with base as (
+  select
+    symbol,
+    dt,
+    open, high, low, close, volume,
+    row_number() over (partition by symbol order by dt) as rn,
+    lag(close) over (partition by symbol order by dt) as prev_close
+  from USER_DB_BOA.analytics.stg_stock_prices
+),
+deltas as (
+  select
+    *,
+    iff(prev_close is null, null, greatest(close - prev_close, 0)) as gain,
+    iff(prev_close is null, null, greatest(prev_close - close, 0)) as loss
+  from base
+),
+ma as (
+  select
+    *,
+    avg(close) over (partition by symbol order by dt rows between 6 preceding and current row)  as sma_7,
+    avg(close) over (partition by symbol order by dt rows between 13 preceding and current row) as sma_14,
+    avg(close) over (partition by symbol order by dt rows between 29 preceding and current row) as sma_30,
+    lag(close, 7) over (partition by symbol order by dt) as close_7
+  from deltas
+),
+rsi as (
+  select
+    *,
+    avg(gain) over (partition by symbol order by dt rows between 13 preceding and current row) as avg_gain_14,
+    avg(loss) over (partition by symbol order by dt rows between 13 preceding and current row) as avg_loss_14
+  from ma
+)
+select
+  symbol,
+  dt,
+  open, high, low, close, volume,
+  sma_7, sma_14, sma_30,
+  case
+    when avg_loss_14 = 0 then 100
+    when avg_gain_14 = 0 then 0
+    when avg_gain_14 is null or avg_loss_14 is null then null
+    else 100 - 100 / (1 + (avg_gain_14 / avg_loss_14))
+  end as rsi_14,
+  iff(close_7 is null, null, (close / nullif(close_7, 0)) - 1) as momentum_7d
+from rsi
+qualify rn > 30
+order by symbol, dt
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "model.stock_transformations.fct_stock_abstract"} */;
+[0m23:54:00.774317 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.606 seconds
+[0m23:54:00.777364 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e262d0bb-e365-46f1-8546-e7c82c97f726', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13df20450>]}
+[0m23:54:00.778160 [info ] [Thread-1 (]: 2 of 2 OK created sql table model analytics.FCT_STOCK_ABSTRACT ................. [[32mSUCCESS 1[0m in 1.65s]
+[0m23:54:00.778854 [debug] [Thread-1 (]: Finished running node model.stock_transformations.fct_stock_abstract
+[0m23:54:00.780508 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:54:00.780940 [debug] [MainThread]: Connection 'model.stock_transformations.fct_stock_abstract' was left open.
+[0m23:54:00.781321 [debug] [MainThread]: On model.stock_transformations.fct_stock_abstract: Close
+[0m23:54:00.914939 [info ] [MainThread]: 
+[0m23:54:00.915604 [info ] [MainThread]: Finished running 1 table model, 1 view model in 0 hours 0 minutes and 4.58 seconds (4.58s).
+[0m23:54:00.916735 [debug] [MainThread]: Command end result
+[0m23:54:00.942824 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/manifest.json
+[0m23:54:00.944794 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/semantic_manifest.json
+[0m23:54:00.951651 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/oliverzheng/Desktop/Airflow/dbt/target/run_results.json
+[0m23:54:00.952226 [info ] [MainThread]: 
+[0m23:54:00.952720 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m23:54:00.953124 [info ] [MainThread]: 
+[0m23:54:00.954125 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m23:54:00.961959 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 9.647773, "process_in_blocks": "0", "process_kernel_time": 1.401506, "process_mem_max_rss": "207822848", "process_out_blocks": "0", "process_user_time": 6.134721}
+[0m23:54:00.962790 [debug] [MainThread]: Command `dbt run` succeeded at 23:54:00.962646 after 9.65 seconds
+[0m23:54:00.963428 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c5f6510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c563410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c574510>]}
+[0m23:54:00.964397 [debug] [MainThread]: Flushing usage events
+[0m23:54:01.493106 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:56:43.354195 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d1f76d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d193610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d20bf90>]}
+
+
+============================== 23:56:43.367214 | ab159808-2483-4761-a621-9555d1ebcdd7 ==============================
+[0m23:56:43.367214 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m23:56:43.368040 [debug] [MainThread]: running dbt with arguments {'use_experimental_parser': 'False', 'printer_width': '80', 'debug': 'False', 'empty': 'None', 'version_check': 'True', 'write_json': 'True', 'static_parser': 'True', 'indirect_selection': 'eager', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_colors': 'True', 'invocation_command': 'dbt test', 'partial_parse': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'warn_error': 'None', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'introspect': 'True', 'log_format': 'default', 'profiles_dir': '.', 'target_path': 'None', 'log_path': '/Users/oliverzheng/Desktop/Airflow/dbt/logs'}
+[0m23:56:46.109280 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ab159808-2483-4761-a621-9555d1ebcdd7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b6ba550>]}
+[0m23:56:46.197963 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ab159808-2483-4761-a621-9555d1ebcdd7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c6ddbd0>]}
+[0m23:56:46.199607 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m23:56:46.412260 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m23:56:46.635479 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:56:46.636096 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:56:46.713210 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ab159808-2483-4761-a621-9555d1ebcdd7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1399d0390>]}
+[0m23:56:46.833088 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/manifest.json
+[0m23:56:46.835908 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/semantic_manifest.json
+[0m23:56:46.961933 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ab159808-2483-4761-a621-9555d1ebcdd7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x139744a50>]}
+[0m23:56:46.962836 [info ] [MainThread]: Found 2 models, 1 snapshot, 1 source, 496 macros
+[0m23:56:46.963838 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ab159808-2483-4761-a621-9555d1ebcdd7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x139803b10>]}
+[0m23:56:46.966568 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m23:56:46.969071 [debug] [MainThread]: Command end result
+[0m23:56:46.999945 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/manifest.json
+[0m23:56:47.003844 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/semantic_manifest.json
+[0m23:56:47.008096 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/oliverzheng/Desktop/Airflow/dbt/target/run_results.json
+[0m23:56:47.014737 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 3.7632005, "process_in_blocks": "0", "process_kernel_time": 1.128853, "process_mem_max_rss": "169746432", "process_out_blocks": "0", "process_user_time": 3.879849}
+[0m23:56:47.015591 [debug] [MainThread]: Command `dbt test` succeeded at 23:56:47.015430 after 3.76 seconds
+[0m23:56:47.016364 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109297f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109297410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ce8af50>]}
+[0m23:56:47.016874 [debug] [MainThread]: Flushing usage events
+[0m23:56:47.611251 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:57:30.957520 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f77b9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f79bbd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f79bf90>]}
+
+
+============================== 23:57:30.966645 | d6d76508-d70c-4ac0-bae0-5a38ed5e730f ==============================
+[0m23:57:30.966645 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m23:57:30.967532 [debug] [MainThread]: running dbt with arguments {'cache_selected_only': 'False', 'warn_error': 'None', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True', 'log_format': 'default', 'no_print': 'None', 'invocation_command': 'dbt test', 'profiles_dir': '.', 'fail_fast': 'False', 'indirect_selection': 'eager', 'target_path': 'None', 'log_path': '/Users/oliverzheng/Desktop/Airflow/dbt/logs', 'send_anonymous_usage_stats': 'True', 'empty': 'None', 'partial_parse': 'True', 'static_parser': 'True', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'version_check': 'True'}
+[0m23:57:30.971488 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'stock_transformations'
+[0m23:57:30.975233 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": false, "command_wall_clock_time": 0.10876283, "process_in_blocks": "0", "process_kernel_time": 0.384207, "process_mem_max_rss": "95629312", "process_out_blocks": "0", "process_user_time": 1.685045}
+[0m23:57:30.976155 [debug] [MainThread]: Command `dbt test` failed at 23:57:30.975960 after 0.11 seconds
+[0m23:57:30.976759 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f7591d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b886710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f79c290>]}
+[0m23:57:30.977311 [debug] [MainThread]: Flushing usage events
+[0m23:57:31.457279 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:58:05.307857 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113935190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113937050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1139bd1d0>]}
+
+
+============================== 23:58:05.316640 | cb6b584c-b01b-4ae9-93ed-9463f26bb2ae ==============================
+[0m23:58:05.316640 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m23:58:05.317408 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt test', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'partial_parse': 'True', 'static_parser': 'True', 'target_path': 'None', 'printer_width': '80', 'debug': 'False', 'log_path': '/Users/oliverzheng/Desktop/Airflow/dbt/logs', 'cache_selected_only': 'False', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '.', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'version_check': 'True', 'warn_error': 'None', 'empty': 'None', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_cache_events': 'False', 'introspect': 'True'}
+[0m23:58:07.328332 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'cb6b584c-b01b-4ae9-93ed-9463f26bb2ae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1139e21d0>]}
+[0m23:58:07.405617 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'cb6b584c-b01b-4ae9-93ed-9463f26bb2ae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13fd9d690>]}
+[0m23:58:07.407262 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m23:58:07.598230 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m23:58:07.796607 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:58:07.797134 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:58:07.857852 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cb6b584c-b01b-4ae9-93ed-9463f26bb2ae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x14021e990>]}
+[0m23:58:07.966883 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/manifest.json
+[0m23:58:07.969970 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/semantic_manifest.json
+[0m23:58:08.093433 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'cb6b584c-b01b-4ae9-93ed-9463f26bb2ae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13feee710>]}
+[0m23:58:08.094329 [info ] [MainThread]: Found 2 models, 1 snapshot, 1 source, 496 macros
+[0m23:58:08.094896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'cb6b584c-b01b-4ae9-93ed-9463f26bb2ae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x14016e290>]}
+[0m23:58:08.096857 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m23:58:08.099363 [debug] [MainThread]: Command end result
+[0m23:58:08.128946 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/manifest.json
+[0m23:58:08.130794 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/semantic_manifest.json
+[0m23:58:08.135931 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/oliverzheng/Desktop/Airflow/dbt/target/run_results.json
+[0m23:58:08.143466 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 2.9242268, "process_in_blocks": "0", "process_kernel_time": 1.04802, "process_mem_max_rss": "178585600", "process_out_blocks": "0", "process_user_time": 3.825817}
+[0m23:58:08.144254 [debug] [MainThread]: Command `dbt test` succeeded at 23:58:08.144126 after 2.93 seconds
+[0m23:58:08.144759 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11399ff90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11399f810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11393bd90>]}
+[0m23:58:08.145240 [debug] [MainThread]: Flushing usage events
+[0m23:58:08.724540 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:03:47.464408 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106291150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1062ffe50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1062ffad0>]}
+
+
+============================== 00:03:47.481277 | d5510a72-42b8-40fe-8d63-8a41c8abdd44 ==============================
+[0m00:03:47.481277 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m00:03:47.482296 [debug] [MainThread]: running dbt with arguments {'empty': 'None', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'warn_error': 'None', 'use_colors': 'True', 'introspect': 'True', 'send_anonymous_usage_stats': 'True', 'no_print': 'None', 'write_json': 'True', 'static_parser': 'True', 'indirect_selection': 'eager', 'target_path': 'None', 'invocation_command': 'dbt test', 'printer_width': '80', 'fail_fast': 'False', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'partial_parse': 'True', 'version_check': 'True', 'log_format': 'default', 'profiles_dir': '.', 'debug': 'False', 'log_path': '/Users/oliverzheng/Desktop/Airflow/dbt/logs', 'quiet': 'False'}
+[0m00:03:49.629508 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd5510a72-42b8-40fe-8d63-8a41c8abdd44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106bb0790>]}
+[0m00:03:49.698155 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd5510a72-42b8-40fe-8d63-8a41c8abdd44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1057a2ad0>]}
+[0m00:03:49.699729 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m00:03:49.881870 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m00:03:50.101130 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m00:03:50.102022 [debug] [MainThread]: Partial parsing: updated file: stock_transformations://models/schema.yml
+[0m00:03:50.476171 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd5510a72-42b8-40fe-8d63-8a41c8abdd44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10397e5d0>]}
+[0m00:03:50.583070 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/manifest.json
+[0m00:03:50.586281 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/semantic_manifest.json
+[0m00:03:50.632586 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd5510a72-42b8-40fe-8d63-8a41c8abdd44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x132f774d0>]}
+[0m00:03:50.633391 [info ] [MainThread]: Found 2 models, 1 snapshot, 2 data tests, 1 source, 496 macros
+[0m00:03:50.633874 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd5510a72-42b8-40fe-8d63-8a41c8abdd44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13280c610>]}
+[0m00:03:50.635619 [info ] [MainThread]: 
+[0m00:03:50.636095 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m00:03:50.636459 [info ] [MainThread]: 
+[0m00:03:50.636999 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m00:03:50.641544 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_USER_DB_BOA_analytics'
+[0m00:03:50.839359 [debug] [ThreadPool]: Using snowflake connection "list_USER_DB_BOA_analytics"
+[0m00:03:50.840050 [debug] [ThreadPool]: On list_USER_DB_BOA_analytics: show objects in USER_DB_BOA.analytics
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "connection_name": "list_USER_DB_BOA_analytics"} */;
+[0m00:03:50.840724 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m00:03:52.423781 [debug] [ThreadPool]: SQL status: SUCCESS 10 in 1.583 seconds
+[0m00:03:52.428827 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_USER_DB_BOA_analytics, now list_USER_DB_BOA_SNAPSHOT)
+[0m00:03:52.435929 [debug] [ThreadPool]: Using snowflake connection "list_USER_DB_BOA_SNAPSHOT"
+[0m00:03:52.436508 [debug] [ThreadPool]: On list_USER_DB_BOA_SNAPSHOT: show objects in USER_DB_BOA.SNAPSHOT
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "connection_name": "list_USER_DB_BOA_SNAPSHOT"} */;
+[0m00:03:52.618301 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 0.181 seconds
+[0m00:03:52.622901 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd5510a72-42b8-40fe-8d63-8a41c8abdd44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x132f92550>]}
+[0m00:03:52.628345 [debug] [Thread-1 (]: Began running node test.stock_transformations.not_null_fct_stock_abstract_sessionId.839cb65495
+[0m00:03:52.629141 [info ] [Thread-1 (]: 1 of 2 START test not_null_fct_stock_abstract_sessionId ........................ [RUN]
+[0m00:03:52.629946 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_USER_DB_BOA_SNAPSHOT, now test.stock_transformations.not_null_fct_stock_abstract_sessionId.839cb65495)
+[0m00:03:52.630583 [debug] [Thread-1 (]: Began compiling node test.stock_transformations.not_null_fct_stock_abstract_sessionId.839cb65495
+[0m00:03:52.650605 [debug] [Thread-1 (]: Writing injected SQL for node "test.stock_transformations.not_null_fct_stock_abstract_sessionId.839cb65495"
+[0m00:03:52.652363 [debug] [Thread-1 (]: Began executing node test.stock_transformations.not_null_fct_stock_abstract_sessionId.839cb65495
+[0m00:03:52.680817 [debug] [Thread-1 (]: Writing runtime sql for node "test.stock_transformations.not_null_fct_stock_abstract_sessionId.839cb65495"
+[0m00:03:52.682148 [debug] [Thread-1 (]: Using snowflake connection "test.stock_transformations.not_null_fct_stock_abstract_sessionId.839cb65495"
+[0m00:03:52.682607 [debug] [Thread-1 (]: On test.stock_transformations.not_null_fct_stock_abstract_sessionId.839cb65495: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select sessionId
+from USER_DB_BOA.analytics.FCT_STOCK_ABSTRACT
+where sessionId is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "test.stock_transformations.not_null_fct_stock_abstract_sessionId.839cb65495"} */
+[0m00:03:52.887632 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01c09f83-0307-1fc0-000f-c0df0097b6be
+[0m00:03:52.888218 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 000904 (42000): SQL compilation error: error line 14 at position 7
+invalid identifier 'SESSIONID'
+[0m00:03:52.893502 [debug] [Thread-1 (]: Database Error in test not_null_fct_stock_abstract_sessionId (models/schema.yml)
+  000904 (42000): SQL compilation error: error line 14 at position 7
+  invalid identifier 'SESSIONID'
+  compiled code at target/run/stock_transformations/models/schema.yml/not_null_fct_stock_abstract_sessionId.sql
+[0m00:03:52.894314 [error] [Thread-1 (]: 1 of 2 ERROR not_null_fct_stock_abstract_sessionId ............................. [[31mERROR[0m in 0.26s]
+[0m00:03:52.895073 [debug] [Thread-1 (]: Finished running node test.stock_transformations.not_null_fct_stock_abstract_sessionId.839cb65495
+[0m00:03:52.895590 [debug] [Thread-1 (]: Began running node test.stock_transformations.unique_fct_stock_abstract_sessionId.d45dd3df42
+[0m00:03:52.896186 [debug] [Thread-4 (]: Marking all children of 'test.stock_transformations.not_null_fct_stock_abstract_sessionId.839cb65495' to be skipped because of status 'error'.  Reason: Database Error in test not_null_fct_stock_abstract_sessionId (models/schema.yml)
+  000904 (42000): SQL compilation error: error line 14 at position 7
+  invalid identifier 'SESSIONID'
+  compiled code at target/run/stock_transformations/models/schema.yml/not_null_fct_stock_abstract_sessionId.sql.
+[0m00:03:52.896801 [info ] [Thread-1 (]: 2 of 2 START test unique_fct_stock_abstract_sessionId .......................... [RUN]
+[0m00:03:52.897595 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.stock_transformations.not_null_fct_stock_abstract_sessionId.839cb65495, now test.stock_transformations.unique_fct_stock_abstract_sessionId.d45dd3df42)
+[0m00:03:52.898091 [debug] [Thread-1 (]: Began compiling node test.stock_transformations.unique_fct_stock_abstract_sessionId.d45dd3df42
+[0m00:03:52.906921 [debug] [Thread-1 (]: Writing injected SQL for node "test.stock_transformations.unique_fct_stock_abstract_sessionId.d45dd3df42"
+[0m00:03:52.908007 [debug] [Thread-1 (]: Began executing node test.stock_transformations.unique_fct_stock_abstract_sessionId.d45dd3df42
+[0m00:03:52.911651 [debug] [Thread-1 (]: Writing runtime sql for node "test.stock_transformations.unique_fct_stock_abstract_sessionId.d45dd3df42"
+[0m00:03:52.912975 [debug] [Thread-1 (]: Using snowflake connection "test.stock_transformations.unique_fct_stock_abstract_sessionId.d45dd3df42"
+[0m00:03:52.913537 [debug] [Thread-1 (]: On test.stock_transformations.unique_fct_stock_abstract_sessionId.d45dd3df42: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    sessionId as unique_field,
+    count(*) as n_records
+
+from USER_DB_BOA.analytics.FCT_STOCK_ABSTRACT
+where sessionId is not null
+group by sessionId
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "test.stock_transformations.unique_fct_stock_abstract_sessionId.d45dd3df42"} */
+[0m00:03:53.036557 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01c09f83-0307-2011-000f-c0df0098016a
+[0m00:03:53.037167 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 000904 (42000): SQL compilation error: error line 13 at position 4
+invalid identifier 'SESSIONID'
+[0m00:03:53.040844 [debug] [Thread-1 (]: Database Error in test unique_fct_stock_abstract_sessionId (models/schema.yml)
+  000904 (42000): SQL compilation error: error line 13 at position 4
+  invalid identifier 'SESSIONID'
+  compiled code at target/run/stock_transformations/models/schema.yml/unique_fct_stock_abstract_sessionId.sql
+[0m00:03:53.041444 [error] [Thread-1 (]: 2 of 2 ERROR unique_fct_stock_abstract_sessionId ............................... [[31mERROR[0m in 0.14s]
+[0m00:03:53.042337 [debug] [Thread-1 (]: Finished running node test.stock_transformations.unique_fct_stock_abstract_sessionId.d45dd3df42
+[0m00:03:53.043117 [debug] [Thread-4 (]: Marking all children of 'test.stock_transformations.unique_fct_stock_abstract_sessionId.d45dd3df42' to be skipped because of status 'error'.  Reason: Database Error in test unique_fct_stock_abstract_sessionId (models/schema.yml)
+  000904 (42000): SQL compilation error: error line 13 at position 4
+  invalid identifier 'SESSIONID'
+  compiled code at target/run/stock_transformations/models/schema.yml/unique_fct_stock_abstract_sessionId.sql.
+[0m00:03:53.044993 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m00:03:53.045493 [debug] [MainThread]: Connection 'test.stock_transformations.unique_fct_stock_abstract_sessionId.d45dd3df42' was left open.
+[0m00:03:53.045921 [debug] [MainThread]: On test.stock_transformations.unique_fct_stock_abstract_sessionId.d45dd3df42: Close
+[0m00:03:53.193788 [info ] [MainThread]: 
+[0m00:03:53.194873 [info ] [MainThread]: Finished running 2 data tests in 0 hours 0 minutes and 2.56 seconds (2.56s).
+[0m00:03:53.196225 [debug] [MainThread]: Command end result
+[0m00:03:53.221953 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/manifest.json
+[0m00:03:53.224115 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/semantic_manifest.json
+[0m00:03:53.236352 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/oliverzheng/Desktop/Airflow/dbt/target/run_results.json
+[0m00:03:53.237240 [info ] [MainThread]: 
+[0m00:03:53.238660 [info ] [MainThread]: [31mCompleted with 2 errors, 0 partial successes, and 0 warnings:[0m
+[0m00:03:53.239934 [info ] [MainThread]: 
+[0m00:03:53.240706 [error] [MainThread]: [31mFailure in test not_null_fct_stock_abstract_sessionId (models/schema.yml)[0m
+[0m00:03:53.241312 [error] [MainThread]:   Database Error in test not_null_fct_stock_abstract_sessionId (models/schema.yml)
+  000904 (42000): SQL compilation error: error line 14 at position 7
+  invalid identifier 'SESSIONID'
+  compiled code at target/run/stock_transformations/models/schema.yml/not_null_fct_stock_abstract_sessionId.sql
+[0m00:03:53.242159 [info ] [MainThread]: 
+[0m00:03:53.243429 [info ] [MainThread]:   compiled code at target/compiled/stock_transformations/models/schema.yml/not_null_fct_stock_abstract_sessionId.sql
+[0m00:03:53.244131 [info ] [MainThread]: 
+[0m00:03:53.244942 [error] [MainThread]: [31mFailure in test unique_fct_stock_abstract_sessionId (models/schema.yml)[0m
+[0m00:03:53.245523 [error] [MainThread]:   Database Error in test unique_fct_stock_abstract_sessionId (models/schema.yml)
+  000904 (42000): SQL compilation error: error line 13 at position 4
+  invalid identifier 'SESSIONID'
+  compiled code at target/run/stock_transformations/models/schema.yml/unique_fct_stock_abstract_sessionId.sql
+[0m00:03:53.246091 [info ] [MainThread]: 
+[0m00:03:53.246957 [info ] [MainThread]:   compiled code at target/compiled/stock_transformations/models/schema.yml/unique_fct_stock_abstract_sessionId.sql
+[0m00:03:53.247796 [info ] [MainThread]: 
+[0m00:03:53.248599 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=2 SKIP=0 NO-OP=0 TOTAL=2
+[0m00:03:53.256732 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": false, "command_wall_clock_time": 5.8830323, "process_in_blocks": "0", "process_kernel_time": 1.305966, "process_mem_max_rss": "202326016", "process_out_blocks": "0", "process_user_time": 4.543141}
+[0m00:03:53.257842 [debug] [MainThread]: Command `dbt test` failed at 00:03:53.257660 after 5.88 seconds
+[0m00:03:53.258859 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106314bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106314b50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102374150>]}
+[0m00:03:53.259746 [debug] [MainThread]: Flushing usage events
+[0m00:03:53.730010 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:08:19.694650 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1147a7e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1147d3fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1147d3e50>]}
+
+
+============================== 00:08:19.711915 | a412d238-860e-44bc-afe8-6706b791e35c ==============================
+[0m00:08:19.711915 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m00:08:19.712831 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt test', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'printer_width': '80', 'debug': 'False', 'no_print': 'None', 'log_format': 'default', 'profiles_dir': '.', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'static_parser': 'True', 'introspect': 'True', 'fail_fast': 'False', 'write_json': 'True', 'quiet': 'False', 'use_colors': 'True', 'version_check': 'True', 'empty': 'None', 'target_path': 'None', 'log_path': '/Users/oliverzheng/Desktop/Airflow/dbt/logs', 'warn_error': 'None'}
+[0m00:08:21.927460 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a412d238-860e-44bc-afe8-6706b791e35c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1147f4490>]}
+[0m00:08:21.994608 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a412d238-860e-44bc-afe8-6706b791e35c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113c72a90>]}
+[0m00:08:21.996227 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m00:08:22.178210 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m00:08:22.386607 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m00:08:22.387652 [debug] [MainThread]: Partial parsing: updated file: stock_transformations://models/schema.yml
+[0m00:08:22.968224 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a412d238-860e-44bc-afe8-6706b791e35c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1413b2610>]}
+[0m00:08:23.075638 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/manifest.json
+[0m00:08:23.078388 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/semantic_manifest.json
+[0m00:08:23.113777 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a412d238-860e-44bc-afe8-6706b791e35c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1415da1d0>]}
+[0m00:08:23.114521 [info ] [MainThread]: Found 2 models, 1 snapshot, 4 data tests, 1 source, 496 macros
+[0m00:08:23.114943 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a412d238-860e-44bc-afe8-6706b791e35c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x14149e190>]}
+[0m00:08:23.116596 [info ] [MainThread]: 
+[0m00:08:23.117006 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m00:08:23.117389 [info ] [MainThread]: 
+[0m00:08:23.117922 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m00:08:23.122973 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_USER_DB_BOA_analytics'
+[0m00:08:23.294784 [debug] [ThreadPool]: Using snowflake connection "list_USER_DB_BOA_analytics"
+[0m00:08:23.295313 [debug] [ThreadPool]: On list_USER_DB_BOA_analytics: show objects in USER_DB_BOA.analytics
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "connection_name": "list_USER_DB_BOA_analytics"} */;
+[0m00:08:23.295957 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m00:08:25.430323 [debug] [ThreadPool]: SQL status: SUCCESS 10 in 2.134 seconds
+[0m00:08:25.433276 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_USER_DB_BOA_analytics, now list_USER_DB_BOA_SNAPSHOT)
+[0m00:08:25.440286 [debug] [ThreadPool]: Using snowflake connection "list_USER_DB_BOA_SNAPSHOT"
+[0m00:08:25.440797 [debug] [ThreadPool]: On list_USER_DB_BOA_SNAPSHOT: show objects in USER_DB_BOA.SNAPSHOT
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "connection_name": "list_USER_DB_BOA_SNAPSHOT"} */;
+[0m00:08:25.572101 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 0.131 seconds
+[0m00:08:25.576703 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a412d238-860e-44bc-afe8-6706b791e35c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11479b0d0>]}
+[0m00:08:25.581866 [debug] [Thread-1 (]: Began running node test.stock_transformations.not_null_fct_stock_abstract_dt.ce9874faf2
+[0m00:08:25.582669 [info ] [Thread-1 (]: 1 of 4 START test not_null_fct_stock_abstract_dt ............................... [RUN]
+[0m00:08:25.583477 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_USER_DB_BOA_SNAPSHOT, now test.stock_transformations.not_null_fct_stock_abstract_dt.ce9874faf2)
+[0m00:08:25.584124 [debug] [Thread-1 (]: Began compiling node test.stock_transformations.not_null_fct_stock_abstract_dt.ce9874faf2
+[0m00:08:25.603931 [debug] [Thread-1 (]: Writing injected SQL for node "test.stock_transformations.not_null_fct_stock_abstract_dt.ce9874faf2"
+[0m00:08:25.604916 [debug] [Thread-1 (]: Began executing node test.stock_transformations.not_null_fct_stock_abstract_dt.ce9874faf2
+[0m00:08:25.632654 [debug] [Thread-1 (]: Writing runtime sql for node "test.stock_transformations.not_null_fct_stock_abstract_dt.ce9874faf2"
+[0m00:08:25.633926 [debug] [Thread-1 (]: Using snowflake connection "test.stock_transformations.not_null_fct_stock_abstract_dt.ce9874faf2"
+[0m00:08:25.634430 [debug] [Thread-1 (]: On test.stock_transformations.not_null_fct_stock_abstract_dt.ce9874faf2: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select dt
+from USER_DB_BOA.analytics.FCT_STOCK_ABSTRACT
+where dt is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "test.stock_transformations.not_null_fct_stock_abstract_dt.ce9874faf2"} */
+[0m00:08:26.039312 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.404 seconds
+[0m00:08:26.051530 [info ] [Thread-1 (]: 1 of 4 PASS not_null_fct_stock_abstract_dt ..................................... [[32mPASS[0m in 0.47s]
+[0m00:08:26.052508 [debug] [Thread-1 (]: Finished running node test.stock_transformations.not_null_fct_stock_abstract_dt.ce9874faf2
+[0m00:08:26.053135 [debug] [Thread-1 (]: Began running node test.stock_transformations.not_null_fct_stock_abstract_symbol.0cc1e3e91d
+[0m00:08:26.053779 [info ] [Thread-1 (]: 2 of 4 START test not_null_fct_stock_abstract_symbol ........................... [RUN]
+[0m00:08:26.054494 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.stock_transformations.not_null_fct_stock_abstract_dt.ce9874faf2, now test.stock_transformations.not_null_fct_stock_abstract_symbol.0cc1e3e91d)
+[0m00:08:26.055061 [debug] [Thread-1 (]: Began compiling node test.stock_transformations.not_null_fct_stock_abstract_symbol.0cc1e3e91d
+[0m00:08:26.060627 [debug] [Thread-1 (]: Writing injected SQL for node "test.stock_transformations.not_null_fct_stock_abstract_symbol.0cc1e3e91d"
+[0m00:08:26.061633 [debug] [Thread-1 (]: Began executing node test.stock_transformations.not_null_fct_stock_abstract_symbol.0cc1e3e91d
+[0m00:08:26.066714 [debug] [Thread-1 (]: Writing runtime sql for node "test.stock_transformations.not_null_fct_stock_abstract_symbol.0cc1e3e91d"
+[0m00:08:26.068331 [debug] [Thread-1 (]: Using snowflake connection "test.stock_transformations.not_null_fct_stock_abstract_symbol.0cc1e3e91d"
+[0m00:08:26.069104 [debug] [Thread-1 (]: On test.stock_transformations.not_null_fct_stock_abstract_symbol.0cc1e3e91d: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select symbol
+from USER_DB_BOA.analytics.FCT_STOCK_ABSTRACT
+where symbol is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "test.stock_transformations.not_null_fct_stock_abstract_symbol.0cc1e3e91d"} */
+[0m00:08:26.447871 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.378 seconds
+[0m00:08:26.451463 [info ] [Thread-1 (]: 2 of 4 PASS not_null_fct_stock_abstract_symbol ................................. [[32mPASS[0m in 0.40s]
+[0m00:08:26.452963 [debug] [Thread-1 (]: Finished running node test.stock_transformations.not_null_fct_stock_abstract_symbol.0cc1e3e91d
+[0m00:08:26.453956 [debug] [Thread-1 (]: Began running node test.stock_transformations.not_null_stg_stock_prices_dt.3079d13e79
+[0m00:08:26.454785 [info ] [Thread-1 (]: 3 of 4 START test not_null_stg_stock_prices_dt ................................. [RUN]
+[0m00:08:26.455839 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.stock_transformations.not_null_fct_stock_abstract_symbol.0cc1e3e91d, now test.stock_transformations.not_null_stg_stock_prices_dt.3079d13e79)
+[0m00:08:26.456754 [debug] [Thread-1 (]: Began compiling node test.stock_transformations.not_null_stg_stock_prices_dt.3079d13e79
+[0m00:08:26.464454 [debug] [Thread-1 (]: Writing injected SQL for node "test.stock_transformations.not_null_stg_stock_prices_dt.3079d13e79"
+[0m00:08:26.466404 [debug] [Thread-1 (]: Began executing node test.stock_transformations.not_null_stg_stock_prices_dt.3079d13e79
+[0m00:08:26.472309 [debug] [Thread-1 (]: Writing runtime sql for node "test.stock_transformations.not_null_stg_stock_prices_dt.3079d13e79"
+[0m00:08:26.475250 [debug] [Thread-1 (]: Using snowflake connection "test.stock_transformations.not_null_stg_stock_prices_dt.3079d13e79"
+[0m00:08:26.517142 [debug] [Thread-1 (]: On test.stock_transformations.not_null_stg_stock_prices_dt.3079d13e79: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select dt
+from USER_DB_BOA.analytics.stg_stock_prices
+where dt is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "test.stock_transformations.not_null_stg_stock_prices_dt.3079d13e79"} */
+[0m00:08:26.977566 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.458 seconds
+[0m00:08:26.981705 [info ] [Thread-1 (]: 3 of 4 PASS not_null_stg_stock_prices_dt ....................................... [[32mPASS[0m in 0.53s]
+[0m00:08:26.982885 [debug] [Thread-1 (]: Finished running node test.stock_transformations.not_null_stg_stock_prices_dt.3079d13e79
+[0m00:08:26.983739 [debug] [Thread-1 (]: Began running node test.stock_transformations.not_null_stg_stock_prices_symbol.c5ad3c0efb
+[0m00:08:26.984518 [info ] [Thread-1 (]: 4 of 4 START test not_null_stg_stock_prices_symbol ............................. [RUN]
+[0m00:08:26.985271 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.stock_transformations.not_null_stg_stock_prices_dt.3079d13e79, now test.stock_transformations.not_null_stg_stock_prices_symbol.c5ad3c0efb)
+[0m00:08:26.985910 [debug] [Thread-1 (]: Began compiling node test.stock_transformations.not_null_stg_stock_prices_symbol.c5ad3c0efb
+[0m00:08:26.991811 [debug] [Thread-1 (]: Writing injected SQL for node "test.stock_transformations.not_null_stg_stock_prices_symbol.c5ad3c0efb"
+[0m00:08:26.992827 [debug] [Thread-1 (]: Began executing node test.stock_transformations.not_null_stg_stock_prices_symbol.c5ad3c0efb
+[0m00:08:26.997934 [debug] [Thread-1 (]: Writing runtime sql for node "test.stock_transformations.not_null_stg_stock_prices_symbol.c5ad3c0efb"
+[0m00:08:26.999200 [debug] [Thread-1 (]: Using snowflake connection "test.stock_transformations.not_null_stg_stock_prices_symbol.c5ad3c0efb"
+[0m00:08:26.999740 [debug] [Thread-1 (]: On test.stock_transformations.not_null_stg_stock_prices_symbol.c5ad3c0efb: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select symbol
+from USER_DB_BOA.analytics.stg_stock_prices
+where symbol is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "test.stock_transformations.not_null_stg_stock_prices_symbol.c5ad3c0efb"} */
+[0m00:08:27.497137 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.497 seconds
+[0m00:08:27.500398 [info ] [Thread-1 (]: 4 of 4 PASS not_null_stg_stock_prices_symbol ................................... [[32mPASS[0m in 0.52s]
+[0m00:08:27.501536 [debug] [Thread-1 (]: Finished running node test.stock_transformations.not_null_stg_stock_prices_symbol.c5ad3c0efb
+[0m00:08:27.503346 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m00:08:27.503912 [debug] [MainThread]: Connection 'test.stock_transformations.not_null_stg_stock_prices_symbol.c5ad3c0efb' was left open.
+[0m00:08:27.504425 [debug] [MainThread]: On test.stock_transformations.not_null_stg_stock_prices_symbol.c5ad3c0efb: Close
+[0m00:08:27.683426 [info ] [MainThread]: 
+[0m00:08:27.684536 [info ] [MainThread]: Finished running 4 data tests in 0 hours 0 minutes and 4.57 seconds (4.57s).
+[0m00:08:27.686726 [debug] [MainThread]: Command end result
+[0m00:08:27.716114 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/manifest.json
+[0m00:08:27.718097 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/semantic_manifest.json
+[0m00:08:27.727307 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/oliverzheng/Desktop/Airflow/dbt/target/run_results.json
+[0m00:08:27.728039 [info ] [MainThread]: 
+[0m00:08:27.728797 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m00:08:27.729573 [info ] [MainThread]: 
+[0m00:08:27.730168 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+[0m00:08:27.736078 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 8.128798, "process_in_blocks": "0", "process_kernel_time": 1.269663, "process_mem_max_rss": "205479936", "process_out_blocks": "0", "process_user_time": 4.77916}
+[0m00:08:27.736870 [debug] [MainThread]: Command `dbt test` succeeded at 00:08:27.736683 after 8.13 seconds
+[0m00:08:27.737491 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1147d3e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1108d6510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1108433d0>]}
+[0m00:08:27.738158 [debug] [MainThread]: Flushing usage events
+[0m00:08:28.212454 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:09:09.341883 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109599310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109613e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109613e50>]}
+
+
+============================== 00:09:09.350868 | 12c14749-d0cb-4cf0-9b67-b07c46f16d47 ==============================
+[0m00:09:09.350868 [info ] [MainThread]: Running with dbt=1.11.0-b3
+[0m00:09:09.351655 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'partial_parse': 'True', 'fail_fast': 'False', 'quiet': 'False', 'invocation_command': 'dbt snapshot', 'target_path': 'None', 'log_format': 'default', 'use_colors': 'True', 'log_cache_events': 'False', 'log_path': '/Users/oliverzheng/Desktop/Airflow/dbt/logs', 'use_experimental_parser': 'False', 'version_check': 'True', 'static_parser': 'True', 'warn_error': 'None', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'empty': 'False', 'indirect_selection': 'eager', 'profiles_dir': '.', 'printer_width': '80', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'cache_selected_only': 'False', 'no_print': 'None'}
+[0m00:09:11.481268 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '12c14749-d0cb-4cf0-9b67-b07c46f16d47', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x135b07b90>]}
+[0m00:09:11.554471 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '12c14749-d0cb-4cf0-9b67-b07c46f16d47', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x135b69750>]}
+[0m00:09:11.556532 [info ] [MainThread]: Registered adapter: snowflake=1.10.2
+[0m00:09:11.739943 [debug] [MainThread]: checksum: e63134dccc1251cfb572caf0e4aa952f030c125ee3634f3bf2c0a2e1bb6ae349, vars: {}, profile: , target: , version: 1.11.0b3
+[0m00:09:11.957831 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m00:09:11.958354 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m00:09:12.026785 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '12c14749-d0cb-4cf0-9b67-b07c46f16d47', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x135f09390>]}
+[0m00:09:12.141001 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/manifest.json
+[0m00:09:12.144049 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/semantic_manifest.json
+[0m00:09:12.256810 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '12c14749-d0cb-4cf0-9b67-b07c46f16d47', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x135f30cd0>]}
+[0m00:09:12.257747 [info ] [MainThread]: Found 2 models, 1 snapshot, 4 data tests, 1 source, 496 macros
+[0m00:09:12.258355 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '12c14749-d0cb-4cf0-9b67-b07c46f16d47', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10587d050>]}
+[0m00:09:12.260463 [info ] [MainThread]: 
+[0m00:09:12.261053 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m00:09:12.261547 [info ] [MainThread]: 
+[0m00:09:12.262300 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m00:09:12.263473 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_USER_DB_BOA'
+[0m00:09:12.389798 [debug] [ThreadPool]: Using snowflake connection "list_USER_DB_BOA"
+[0m00:09:12.390371 [debug] [ThreadPool]: On list_USER_DB_BOA: show terse schemas in database USER_DB_BOA
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "connection_name": "list_USER_DB_BOA"} */
+[0m00:09:12.390821 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m00:09:13.475006 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 1.084 seconds
+[0m00:09:13.485757 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_USER_DB_BOA, now list_USER_DB_BOA_SNAPSHOT)
+[0m00:09:13.502444 [debug] [ThreadPool]: Using snowflake connection "list_USER_DB_BOA_SNAPSHOT"
+[0m00:09:13.503035 [debug] [ThreadPool]: On list_USER_DB_BOA_SNAPSHOT: show objects in USER_DB_BOA.SNAPSHOT
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "connection_name": "list_USER_DB_BOA_SNAPSHOT"} */;
+[0m00:09:13.658373 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 0.155 seconds
+[0m00:09:13.661966 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_USER_DB_BOA_SNAPSHOT, now list_USER_DB_BOA_analytics)
+[0m00:09:13.666303 [debug] [ThreadPool]: Using snowflake connection "list_USER_DB_BOA_analytics"
+[0m00:09:13.666805 [debug] [ThreadPool]: On list_USER_DB_BOA_analytics: show objects in USER_DB_BOA.analytics
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "connection_name": "list_USER_DB_BOA_analytics"} */;
+[0m00:09:14.175525 [debug] [ThreadPool]: SQL status: SUCCESS 10 in 0.508 seconds
+[0m00:09:14.182727 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '12c14749-d0cb-4cf0-9b67-b07c46f16d47', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1362e98d0>]}
+[0m00:09:14.187358 [debug] [Thread-1 (]: Began running node snapshot.stock_transformations.fct_stock_abstract_snapshot
+[0m00:09:14.188336 [info ] [Thread-1 (]: 1 of 1 START snapshot SNAPSHOT.fct_stock_abstract_snapshot ..................... [RUN]
+[0m00:09:14.189147 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_USER_DB_BOA_analytics, now snapshot.stock_transformations.fct_stock_abstract_snapshot)
+[0m00:09:14.189810 [debug] [Thread-1 (]: Began compiling node snapshot.stock_transformations.fct_stock_abstract_snapshot
+[0m00:09:14.200697 [debug] [Thread-1 (]: Began executing node snapshot.stock_transformations.fct_stock_abstract_snapshot
+[0m00:09:14.267712 [debug] [Thread-1 (]: Using snowflake connection "snapshot.stock_transformations.fct_stock_abstract_snapshot"
+[0m00:09:14.268301 [debug] [Thread-1 (]: On snapshot.stock_transformations.fct_stock_abstract_snapshot: select * from (
+        select open, high, low, close, volume, sma_7, sma_14, sma_30, rsi_14, momentum_7d from (
+                
+
+select
+  hash(symbol, dt) as snap_id,
+  symbol,
+  dt,
+  open, high, low, close, volume,
+  sma_7, sma_14, sma_30,
+  rsi_14,
+  momentum_7d
+from USER_DB_BOA.analytics.FCT_STOCK_ABSTRACT
+            ) subq
+    ) as __dbt_sbq
+    where false
+    limit 0
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "snapshot.stock_transformations.fct_stock_abstract_snapshot"} */
+[0m00:09:14.678441 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.409 seconds
+[0m00:09:14.693419 [debug] [Thread-1 (]: Using snowflake connection "snapshot.stock_transformations.fct_stock_abstract_snapshot"
+[0m00:09:14.695471 [debug] [Thread-1 (]: On snapshot.stock_transformations.fct_stock_abstract_snapshot: describe table "USER_DB_BOA"."SNAPSHOT"."FCT_STOCK_ABSTRACT_SNAPSHOT"
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "snapshot.stock_transformations.fct_stock_abstract_snapshot"} */
+[0m00:09:14.892498 [debug] [Thread-1 (]: SQL status: SUCCESS 17 in 0.195 seconds
+[0m00:09:14.906166 [debug] [Thread-1 (]: Using snowflake connection "snapshot.stock_transformations.fct_stock_abstract_snapshot"
+[0m00:09:14.906869 [debug] [Thread-1 (]: On snapshot.stock_transformations.fct_stock_abstract_snapshot: describe table "USER_DB_BOA"."SNAPSHOT"."FCT_STOCK_ABSTRACT_SNAPSHOT"
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "snapshot.stock_transformations.fct_stock_abstract_snapshot"} */
+[0m00:09:15.094160 [debug] [Thread-1 (]: SQL status: SUCCESS 17 in 0.187 seconds
+[0m00:09:15.164537 [debug] [Thread-1 (]: Using snowflake connection "snapshot.stock_transformations.fct_stock_abstract_snapshot"
+[0m00:09:15.165510 [debug] [Thread-1 (]: On snapshot.stock_transformations.fct_stock_abstract_snapshot: create or replace temporary table "USER_DB_BOA"."SNAPSHOT"."FCT_STOCK_ABSTRACT_SNAPSHOT__dbt_tmp"
+as (
+    
+    
+    with snapshot_query as (
+
+        
+
+select
+  hash(symbol, dt) as snap_id,
+  symbol,
+  dt,
+  open, high, low, close, volume,
+  sma_7, sma_14, sma_30,
+  rsi_14,
+  momentum_7d
+from USER_DB_BOA.analytics.FCT_STOCK_ABSTRACT
+
+    ),
+
+    snapshotted_data as (
+
+        select *, 
+    
+        snap_id as dbt_unique_key
+    
+
+        from "USER_DB_BOA"."SNAPSHOT"."FCT_STOCK_ABSTRACT_SNAPSHOT"
+        where
+            
+                dbt_valid_to is null
+            
+
+    ),
+
+    insertions_source_data as (
+
+        select *, 
+    
+        snap_id as dbt_unique_key
+    
+,
+            to_timestamp_ntz(convert_timezone('UTC', current_timestamp())) as dbt_updated_at,
+            to_timestamp_ntz(convert_timezone('UTC', current_timestamp())) as dbt_valid_from,
+            
+  
+  coalesce(nullif(to_timestamp_ntz(convert_timezone('UTC', current_timestamp())), to_timestamp_ntz(convert_timezone('UTC', current_timestamp()))), null)
+  as dbt_valid_to
+,
+            md5(coalesce(cast(snap_id as varchar ), '')
+         || '|' || coalesce(cast(to_timestamp_ntz(convert_timezone('UTC', current_timestamp())) as varchar ), '')
+        ) as dbt_scd_id
+
+        from snapshot_query
+    ),
+
+    updates_source_data as (
+
+        select *, 
+    
+        snap_id as dbt_unique_key
+    
+,
+            to_timestamp_ntz(convert_timezone('UTC', current_timestamp())) as dbt_updated_at,
+            to_timestamp_ntz(convert_timezone('UTC', current_timestamp())) as dbt_valid_from,
+            to_timestamp_ntz(convert_timezone('UTC', current_timestamp())) as dbt_valid_to
+
+        from snapshot_query
+    ),
+
+    deletes_source_data as (
+
+        select *, 
+    
+        snap_id as dbt_unique_key
+    
+
+        from snapshot_query
+    ),
+    
+
+    insertions as (
+
+        select
+            'insert' as dbt_change_type,
+            source_data.*
+
+        from insertions_source_data as source_data
+        left outer join snapshotted_data
+            on 
+    
+        snapshotted_data.dbt_unique_key = source_data.dbt_unique_key
+    
+
+            where 
+    
+        snapshotted_data.dbt_unique_key is null
+    
+
+            or (
+    
+        snapshotted_data.dbt_unique_key is not null
+    
+ and (
+               (snapshotted_data."OPEN" != source_data."OPEN"
+        or
+        (
+            ((snapshotted_data."OPEN" is null) and not (source_data."OPEN" is null))
+            or
+            ((not snapshotted_data."OPEN" is null) and (source_data."OPEN" is null))
+        ) or snapshotted_data."HIGH" != source_data."HIGH"
+        or
+        (
+            ((snapshotted_data."HIGH" is null) and not (source_data."HIGH" is null))
+            or
+            ((not snapshotted_data."HIGH" is null) and (source_data."HIGH" is null))
+        ) or snapshotted_data."LOW" != source_data."LOW"
+        or
+        (
+            ((snapshotted_data."LOW" is null) and not (source_data."LOW" is null))
+            or
+            ((not snapshotted_data."LOW" is null) and (source_data."LOW" is null))
+        ) or snapshotted_data."CLOSE" != source_data."CLOSE"
+        or
+        (
+            ((snapshotted_data."CLOSE" is null) and not (source_data."CLOSE" is null))
+            or
+            ((not snapshotted_data."CLOSE" is null) and (source_data."CLOSE" is null))
+        ) or snapshotted_data."VOLUME" != source_data."VOLUME"
+        or
+        (
+            ((snapshotted_data."VOLUME" is null) and not (source_data."VOLUME" is null))
+            or
+            ((not snapshotted_data."VOLUME" is null) and (source_data."VOLUME" is null))
+        ) or snapshotted_data."SMA_7" != source_data."SMA_7"
+        or
+        (
+            ((snapshotted_data."SMA_7" is null) and not (source_data."SMA_7" is null))
+            or
+            ((not snapshotted_data."SMA_7" is null) and (source_data."SMA_7" is null))
+        ) or snapshotted_data."SMA_14" != source_data."SMA_14"
+        or
+        (
+            ((snapshotted_data."SMA_14" is null) and not (source_data."SMA_14" is null))
+            or
+            ((not snapshotted_data."SMA_14" is null) and (source_data."SMA_14" is null))
+        ) or snapshotted_data."SMA_30" != source_data."SMA_30"
+        or
+        (
+            ((snapshotted_data."SMA_30" is null) and not (source_data."SMA_30" is null))
+            or
+            ((not snapshotted_data."SMA_30" is null) and (source_data."SMA_30" is null))
+        ) or snapshotted_data."RSI_14" != source_data."RSI_14"
+        or
+        (
+            ((snapshotted_data."RSI_14" is null) and not (source_data."RSI_14" is null))
+            or
+            ((not snapshotted_data."RSI_14" is null) and (source_data."RSI_14" is null))
+        ) or snapshotted_data."MOMENTUM_7D" != source_data."MOMENTUM_7D"
+        or
+        (
+            ((snapshotted_data."MOMENTUM_7D" is null) and not (source_data."MOMENTUM_7D" is null))
+            or
+            ((not snapshotted_data."MOMENTUM_7D" is null) and (source_data."MOMENTUM_7D" is null))
+        ))
+            )
+
+        )
+
+    ),
+
+    updates as (
+
+        select
+            'update' as dbt_change_type,
+            source_data.*,
+            snapshotted_data.dbt_scd_id
+
+        from updates_source_data as source_data
+        join snapshotted_data
+            on 
+    
+        snapshotted_data.dbt_unique_key = source_data.dbt_unique_key
+    
+
+        where (
+            (snapshotted_data."OPEN" != source_data."OPEN"
+        or
+        (
+            ((snapshotted_data."OPEN" is null) and not (source_data."OPEN" is null))
+            or
+            ((not snapshotted_data."OPEN" is null) and (source_data."OPEN" is null))
+        ) or snapshotted_data."HIGH" != source_data."HIGH"
+        or
+        (
+            ((snapshotted_data."HIGH" is null) and not (source_data."HIGH" is null))
+            or
+            ((not snapshotted_data."HIGH" is null) and (source_data."HIGH" is null))
+        ) or snapshotted_data."LOW" != source_data."LOW"
+        or
+        (
+            ((snapshotted_data."LOW" is null) and not (source_data."LOW" is null))
+            or
+            ((not snapshotted_data."LOW" is null) and (source_data."LOW" is null))
+        ) or snapshotted_data."CLOSE" != source_data."CLOSE"
+        or
+        (
+            ((snapshotted_data."CLOSE" is null) and not (source_data."CLOSE" is null))
+            or
+            ((not snapshotted_data."CLOSE" is null) and (source_data."CLOSE" is null))
+        ) or snapshotted_data."VOLUME" != source_data."VOLUME"
+        or
+        (
+            ((snapshotted_data."VOLUME" is null) and not (source_data."VOLUME" is null))
+            or
+            ((not snapshotted_data."VOLUME" is null) and (source_data."VOLUME" is null))
+        ) or snapshotted_data."SMA_7" != source_data."SMA_7"
+        or
+        (
+            ((snapshotted_data."SMA_7" is null) and not (source_data."SMA_7" is null))
+            or
+            ((not snapshotted_data."SMA_7" is null) and (source_data."SMA_7" is null))
+        ) or snapshotted_data."SMA_14" != source_data."SMA_14"
+        or
+        (
+            ((snapshotted_data."SMA_14" is null) and not (source_data."SMA_14" is null))
+            or
+            ((not snapshotted_data."SMA_14" is null) and (source_data."SMA_14" is null))
+        ) or snapshotted_data."SMA_30" != source_data."SMA_30"
+        or
+        (
+            ((snapshotted_data."SMA_30" is null) and not (source_data."SMA_30" is null))
+            or
+            ((not snapshotted_data."SMA_30" is null) and (source_data."SMA_30" is null))
+        ) or snapshotted_data."RSI_14" != source_data."RSI_14"
+        or
+        (
+            ((snapshotted_data."RSI_14" is null) and not (source_data."RSI_14" is null))
+            or
+            ((not snapshotted_data."RSI_14" is null) and (source_data."RSI_14" is null))
+        ) or snapshotted_data."MOMENTUM_7D" != source_data."MOMENTUM_7D"
+        or
+        (
+            ((snapshotted_data."MOMENTUM_7D" is null) and not (source_data."MOMENTUM_7D" is null))
+            or
+            ((not snapshotted_data."MOMENTUM_7D" is null) and (source_data."MOMENTUM_7D" is null))
+        ))
+        )
+    )
+    ,
+    deletes as (
+
+        select
+            'delete' as dbt_change_type,
+            source_data.*,
+            to_timestamp_ntz(convert_timezone('UTC', current_timestamp())) as dbt_valid_from,
+            to_timestamp_ntz(convert_timezone('UTC', current_timestamp())) as dbt_updated_at,
+            to_timestamp_ntz(convert_timezone('UTC', current_timestamp())) as dbt_valid_to,
+            snapshotted_data.dbt_scd_id
+        from snapshotted_data
+        left join deletes_source_data as source_data
+            on 
+    
+        snapshotted_data.dbt_unique_key = source_data.dbt_unique_key
+    
+
+            where 
+    
+        source_data.dbt_unique_key is null
+    
+
+    )
+
+    select * from insertions
+    union all
+    select * from updates
+    union all
+    select * from deletes
+
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "snapshot.stock_transformations.fct_stock_abstract_snapshot"} */;
+[0m00:09:16.535447 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.369 seconds
+[0m00:09:16.541528 [debug] [Thread-1 (]: Using snowflake connection "snapshot.stock_transformations.fct_stock_abstract_snapshot"
+[0m00:09:16.542356 [debug] [Thread-1 (]: On snapshot.stock_transformations.fct_stock_abstract_snapshot: describe table "USER_DB_BOA"."SNAPSHOT"."FCT_STOCK_ABSTRACT_SNAPSHOT__dbt_tmp"
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "snapshot.stock_transformations.fct_stock_abstract_snapshot"} */
+[0m00:09:16.644768 [debug] [Thread-1 (]: SQL status: SUCCESS 19 in 0.102 seconds
+[0m00:09:16.650838 [debug] [Thread-1 (]: Using snowflake connection "snapshot.stock_transformations.fct_stock_abstract_snapshot"
+[0m00:09:16.651419 [debug] [Thread-1 (]: On snapshot.stock_transformations.fct_stock_abstract_snapshot: describe table "USER_DB_BOA"."SNAPSHOT"."FCT_STOCK_ABSTRACT_SNAPSHOT"
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "snapshot.stock_transformations.fct_stock_abstract_snapshot"} */
+[0m00:09:16.810071 [debug] [Thread-1 (]: SQL status: SUCCESS 17 in 0.158 seconds
+[0m00:09:16.817816 [debug] [Thread-1 (]: Using snowflake connection "snapshot.stock_transformations.fct_stock_abstract_snapshot"
+[0m00:09:16.818715 [debug] [Thread-1 (]: On snapshot.stock_transformations.fct_stock_abstract_snapshot: describe table "USER_DB_BOA"."SNAPSHOT"."FCT_STOCK_ABSTRACT_SNAPSHOT__dbt_tmp"
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "snapshot.stock_transformations.fct_stock_abstract_snapshot"} */
+[0m00:09:16.938762 [debug] [Thread-1 (]: SQL status: SUCCESS 19 in 0.119 seconds
+[0m00:09:16.945566 [debug] [Thread-1 (]: Using snowflake connection "snapshot.stock_transformations.fct_stock_abstract_snapshot"
+[0m00:09:16.946268 [debug] [Thread-1 (]: On snapshot.stock_transformations.fct_stock_abstract_snapshot: describe table "USER_DB_BOA"."SNAPSHOT"."FCT_STOCK_ABSTRACT_SNAPSHOT"
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "snapshot.stock_transformations.fct_stock_abstract_snapshot"} */
+[0m00:09:17.184130 [debug] [Thread-1 (]: SQL status: SUCCESS 17 in 0.237 seconds
+[0m00:09:17.196448 [debug] [Thread-1 (]: Using snowflake connection "snapshot.stock_transformations.fct_stock_abstract_snapshot"
+[0m00:09:17.197124 [debug] [Thread-1 (]: On snapshot.stock_transformations.fct_stock_abstract_snapshot: describe table "USER_DB_BOA"."SNAPSHOT"."FCT_STOCK_ABSTRACT_SNAPSHOT__dbt_tmp"
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "snapshot.stock_transformations.fct_stock_abstract_snapshot"} */
+[0m00:09:17.303114 [debug] [Thread-1 (]: SQL status: SUCCESS 19 in 0.105 seconds
+[0m00:09:17.336095 [debug] [Thread-1 (]: Using snowflake connection "snapshot.stock_transformations.fct_stock_abstract_snapshot"
+[0m00:09:17.337047 [debug] [Thread-1 (]: On snapshot.stock_transformations.fct_stock_abstract_snapshot: select * from (
+        
+    
+    with snapshot_query as (
+
+        
+
+select
+  hash(symbol, dt) as snap_id,
+  symbol,
+  dt,
+  open, high, low, close, volume,
+  sma_7, sma_14, sma_30,
+  rsi_14,
+  momentum_7d
+from USER_DB_BOA.analytics.FCT_STOCK_ABSTRACT
+
+    ),
+
+    snapshotted_data as (
+
+        select *, 
+    
+        snap_id as dbt_unique_key
+    
+
+        from "USER_DB_BOA"."SNAPSHOT"."FCT_STOCK_ABSTRACT_SNAPSHOT"
+        where
+            
+                dbt_valid_to is null
+            
+
+    ),
+
+    insertions_source_data as (
+
+        select *, 
+    
+        snap_id as dbt_unique_key
+    
+,
+            to_timestamp_ntz(convert_timezone('UTC', current_timestamp())) as dbt_updated_at,
+            to_timestamp_ntz(convert_timezone('UTC', current_timestamp())) as dbt_valid_from,
+            
+  
+  coalesce(nullif(to_timestamp_ntz(convert_timezone('UTC', current_timestamp())), to_timestamp_ntz(convert_timezone('UTC', current_timestamp()))), null)
+  as dbt_valid_to
+,
+            md5(coalesce(cast(snap_id as varchar ), '')
+         || '|' || coalesce(cast(to_timestamp_ntz(convert_timezone('UTC', current_timestamp())) as varchar ), '')
+        ) as dbt_scd_id
+
+        from snapshot_query
+    ),
+
+    updates_source_data as (
+
+        select *, 
+    
+        snap_id as dbt_unique_key
+    
+,
+            to_timestamp_ntz(convert_timezone('UTC', current_timestamp())) as dbt_updated_at,
+            to_timestamp_ntz(convert_timezone('UTC', current_timestamp())) as dbt_valid_from,
+            to_timestamp_ntz(convert_timezone('UTC', current_timestamp())) as dbt_valid_to
+
+        from snapshot_query
+    ),
+
+    deletes_source_data as (
+
+        select *, 
+    
+        snap_id as dbt_unique_key
+    
+
+        from snapshot_query
+    ),
+    
+
+    insertions as (
+
+        select
+            'insert' as dbt_change_type,
+            source_data.*
+
+        from insertions_source_data as source_data
+        left outer join snapshotted_data
+            on 
+    
+        snapshotted_data.dbt_unique_key = source_data.dbt_unique_key
+    
+
+            where 
+    
+        snapshotted_data.dbt_unique_key is null
+    
+
+            or (
+    
+        snapshotted_data.dbt_unique_key is not null
+    
+ and (
+               (snapshotted_data."OPEN" != source_data."OPEN"
+        or
+        (
+            ((snapshotted_data."OPEN" is null) and not (source_data."OPEN" is null))
+            or
+            ((not snapshotted_data."OPEN" is null) and (source_data."OPEN" is null))
+        ) or snapshotted_data."HIGH" != source_data."HIGH"
+        or
+        (
+            ((snapshotted_data."HIGH" is null) and not (source_data."HIGH" is null))
+            or
+            ((not snapshotted_data."HIGH" is null) and (source_data."HIGH" is null))
+        ) or snapshotted_data."LOW" != source_data."LOW"
+        or
+        (
+            ((snapshotted_data."LOW" is null) and not (source_data."LOW" is null))
+            or
+            ((not snapshotted_data."LOW" is null) and (source_data."LOW" is null))
+        ) or snapshotted_data."CLOSE" != source_data."CLOSE"
+        or
+        (
+            ((snapshotted_data."CLOSE" is null) and not (source_data."CLOSE" is null))
+            or
+            ((not snapshotted_data."CLOSE" is null) and (source_data."CLOSE" is null))
+        ) or snapshotted_data."VOLUME" != source_data."VOLUME"
+        or
+        (
+            ((snapshotted_data."VOLUME" is null) and not (source_data."VOLUME" is null))
+            or
+            ((not snapshotted_data."VOLUME" is null) and (source_data."VOLUME" is null))
+        ) or snapshotted_data."SMA_7" != source_data."SMA_7"
+        or
+        (
+            ((snapshotted_data."SMA_7" is null) and not (source_data."SMA_7" is null))
+            or
+            ((not snapshotted_data."SMA_7" is null) and (source_data."SMA_7" is null))
+        ) or snapshotted_data."SMA_14" != source_data."SMA_14"
+        or
+        (
+            ((snapshotted_data."SMA_14" is null) and not (source_data."SMA_14" is null))
+            or
+            ((not snapshotted_data."SMA_14" is null) and (source_data."SMA_14" is null))
+        ) or snapshotted_data."SMA_30" != source_data."SMA_30"
+        or
+        (
+            ((snapshotted_data."SMA_30" is null) and not (source_data."SMA_30" is null))
+            or
+            ((not snapshotted_data."SMA_30" is null) and (source_data."SMA_30" is null))
+        ) or snapshotted_data."RSI_14" != source_data."RSI_14"
+        or
+        (
+            ((snapshotted_data."RSI_14" is null) and not (source_data."RSI_14" is null))
+            or
+            ((not snapshotted_data."RSI_14" is null) and (source_data."RSI_14" is null))
+        ) or snapshotted_data."MOMENTUM_7D" != source_data."MOMENTUM_7D"
+        or
+        (
+            ((snapshotted_data."MOMENTUM_7D" is null) and not (source_data."MOMENTUM_7D" is null))
+            or
+            ((not snapshotted_data."MOMENTUM_7D" is null) and (source_data."MOMENTUM_7D" is null))
+        ))
+            )
+
+        )
+
+    ),
+
+    updates as (
+
+        select
+            'update' as dbt_change_type,
+            source_data.*,
+            snapshotted_data.dbt_scd_id
+
+        from updates_source_data as source_data
+        join snapshotted_data
+            on 
+    
+        snapshotted_data.dbt_unique_key = source_data.dbt_unique_key
+    
+
+        where (
+            (snapshotted_data."OPEN" != source_data."OPEN"
+        or
+        (
+            ((snapshotted_data."OPEN" is null) and not (source_data."OPEN" is null))
+            or
+            ((not snapshotted_data."OPEN" is null) and (source_data."OPEN" is null))
+        ) or snapshotted_data."HIGH" != source_data."HIGH"
+        or
+        (
+            ((snapshotted_data."HIGH" is null) and not (source_data."HIGH" is null))
+            or
+            ((not snapshotted_data."HIGH" is null) and (source_data."HIGH" is null))
+        ) or snapshotted_data."LOW" != source_data."LOW"
+        or
+        (
+            ((snapshotted_data."LOW" is null) and not (source_data."LOW" is null))
+            or
+            ((not snapshotted_data."LOW" is null) and (source_data."LOW" is null))
+        ) or snapshotted_data."CLOSE" != source_data."CLOSE"
+        or
+        (
+            ((snapshotted_data."CLOSE" is null) and not (source_data."CLOSE" is null))
+            or
+            ((not snapshotted_data."CLOSE" is null) and (source_data."CLOSE" is null))
+        ) or snapshotted_data."VOLUME" != source_data."VOLUME"
+        or
+        (
+            ((snapshotted_data."VOLUME" is null) and not (source_data."VOLUME" is null))
+            or
+            ((not snapshotted_data."VOLUME" is null) and (source_data."VOLUME" is null))
+        ) or snapshotted_data."SMA_7" != source_data."SMA_7"
+        or
+        (
+            ((snapshotted_data."SMA_7" is null) and not (source_data."SMA_7" is null))
+            or
+            ((not snapshotted_data."SMA_7" is null) and (source_data."SMA_7" is null))
+        ) or snapshotted_data."SMA_14" != source_data."SMA_14"
+        or
+        (
+            ((snapshotted_data."SMA_14" is null) and not (source_data."SMA_14" is null))
+            or
+            ((not snapshotted_data."SMA_14" is null) and (source_data."SMA_14" is null))
+        ) or snapshotted_data."SMA_30" != source_data."SMA_30"
+        or
+        (
+            ((snapshotted_data."SMA_30" is null) and not (source_data."SMA_30" is null))
+            or
+            ((not snapshotted_data."SMA_30" is null) and (source_data."SMA_30" is null))
+        ) or snapshotted_data."RSI_14" != source_data."RSI_14"
+        or
+        (
+            ((snapshotted_data."RSI_14" is null) and not (source_data."RSI_14" is null))
+            or
+            ((not snapshotted_data."RSI_14" is null) and (source_data."RSI_14" is null))
+        ) or snapshotted_data."MOMENTUM_7D" != source_data."MOMENTUM_7D"
+        or
+        (
+            ((snapshotted_data."MOMENTUM_7D" is null) and not (source_data."MOMENTUM_7D" is null))
+            or
+            ((not snapshotted_data."MOMENTUM_7D" is null) and (source_data."MOMENTUM_7D" is null))
+        ))
+        )
+    )
+    ,
+    deletes as (
+
+        select
+            'delete' as dbt_change_type,
+            source_data.*,
+            to_timestamp_ntz(convert_timezone('UTC', current_timestamp())) as dbt_valid_from,
+            to_timestamp_ntz(convert_timezone('UTC', current_timestamp())) as dbt_updated_at,
+            to_timestamp_ntz(convert_timezone('UTC', current_timestamp())) as dbt_valid_to,
+            snapshotted_data.dbt_scd_id
+        from snapshotted_data
+        left join deletes_source_data as source_data
+            on 
+    
+        snapshotted_data.dbt_unique_key = source_data.dbt_unique_key
+    
+
+            where 
+    
+        source_data.dbt_unique_key is null
+    
+
+    )
+
+    select * from insertions
+    union all
+    select * from updates
+    union all
+    select * from deletes
+
+    ) as __dbt_sbq
+    where false
+    limit 0
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "snapshot.stock_transformations.fct_stock_abstract_snapshot"} */
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "snapshot.stock_transformations.fct_stock_abstract_snapshot"} */
+[0m00:09:17.960675 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.622 seconds
+[0m00:09:17.967773 [debug] [Thread-1 (]: Using snowflake connection "snapshot.stock_transformations.fct_stock_abstract_snapshot"
+[0m00:09:17.968491 [debug] [Thread-1 (]: On snapshot.stock_transformations.fct_stock_abstract_snapshot: select * from (
+        select to_timestamp_ntz(convert_timezone('UTC', current_timestamp())) as dbt_snapshot_time
+    ) as __dbt_sbq
+    where false
+    limit 0
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "snapshot.stock_transformations.fct_stock_abstract_snapshot"} */
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "snapshot.stock_transformations.fct_stock_abstract_snapshot"} */
+[0m00:09:18.073271 [debug] [Thread-1 (]: SQL status: SUCCESS 0 in 0.104 seconds
+[0m00:09:18.074799 [debug] [Thread-1 (]: Writing runtime sql for node "snapshot.stock_transformations.fct_stock_abstract_snapshot"
+[0m00:09:18.079842 [debug] [Thread-1 (]: Using snowflake connection "snapshot.stock_transformations.fct_stock_abstract_snapshot"
+[0m00:09:18.080816 [debug] [Thread-1 (]: On snapshot.stock_transformations.fct_stock_abstract_snapshot: BEGIN
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "snapshot.stock_transformations.fct_stock_abstract_snapshot"} */
+[0m00:09:18.225005 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.143 seconds
+[0m00:09:18.226265 [debug] [Thread-1 (]: Using snowflake connection "snapshot.stock_transformations.fct_stock_abstract_snapshot"
+[0m00:09:18.227354 [debug] [Thread-1 (]: On snapshot.stock_transformations.fct_stock_abstract_snapshot: merge into "USER_DB_BOA"."SNAPSHOT"."FCT_STOCK_ABSTRACT_SNAPSHOT" as DBT_INTERNAL_DEST
+    using "USER_DB_BOA"."SNAPSHOT"."FCT_STOCK_ABSTRACT_SNAPSHOT__dbt_tmp" as DBT_INTERNAL_SOURCE
+    on DBT_INTERNAL_SOURCE.dbt_scd_id = DBT_INTERNAL_DEST.dbt_scd_id
+
+    when matched
+     
+       and DBT_INTERNAL_DEST.dbt_valid_to is null
+     
+     and DBT_INTERNAL_SOURCE.dbt_change_type in ('update', 'delete')
+        then update
+        set dbt_valid_to = DBT_INTERNAL_SOURCE.dbt_valid_to
+
+    when not matched
+     and DBT_INTERNAL_SOURCE.dbt_change_type = 'insert'
+        then insert ("SNAP_ID", "SYMBOL", "DT", "OPEN", "HIGH", "LOW", "CLOSE", "VOLUME", "SMA_7", "SMA_14", "SMA_30", "RSI_14", "MOMENTUM_7D", "DBT_UPDATED_AT", "DBT_VALID_FROM", "DBT_VALID_TO", "DBT_SCD_ID")
+        values ("SNAP_ID", "SYMBOL", "DT", "OPEN", "HIGH", "LOW", "CLOSE", "VOLUME", "SMA_7", "SMA_14", "SMA_30", "RSI_14", "MOMENTUM_7D", "DBT_UPDATED_AT", "DBT_VALID_FROM", "DBT_VALID_TO", "DBT_SCD_ID")
+
+
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "snapshot.stock_transformations.fct_stock_abstract_snapshot"} */;
+[0m00:09:19.094713 [debug] [Thread-1 (]: SQL status: SUCCESS 150 in 0.866 seconds
+[0m00:09:19.096089 [debug] [Thread-1 (]: Using snowflake connection "snapshot.stock_transformations.fct_stock_abstract_snapshot"
+[0m00:09:19.097064 [debug] [Thread-1 (]: On snapshot.stock_transformations.fct_stock_abstract_snapshot: COMMIT
+/* {"app": "dbt", "dbt_version": "1.11.0b3", "profile_name": "stock_transformations", "target_name": "dev", "node_id": "snapshot.stock_transformations.fct_stock_abstract_snapshot"} */
+[0m00:09:19.492452 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.394 seconds
+[0m00:09:19.523789 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '12c14749-d0cb-4cf0-9b67-b07c46f16d47', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x136ca7410>]}
+[0m00:09:19.525050 [info ] [Thread-1 (]: 1 of 1 OK snapshotted SNAPSHOT.fct_stock_abstract_snapshot ..................... [[32mSUCCESS 150[0m in 5.33s]
+[0m00:09:19.525867 [debug] [Thread-1 (]: Finished running node snapshot.stock_transformations.fct_stock_abstract_snapshot
+[0m00:09:19.527290 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m00:09:19.527705 [debug] [MainThread]: Connection 'snapshot.stock_transformations.fct_stock_abstract_snapshot' was left open.
+[0m00:09:19.528110 [debug] [MainThread]: On snapshot.stock_transformations.fct_stock_abstract_snapshot: Close
+[0m00:09:19.680192 [info ] [MainThread]: 
+[0m00:09:19.681065 [info ] [MainThread]: Finished running 1 snapshot in 0 hours 0 minutes and 7.42 seconds (7.42s).
+[0m00:09:19.682396 [debug] [MainThread]: Command end result
+[0m00:09:19.715069 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/manifest.json
+[0m00:09:19.717376 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/oliverzheng/Desktop/Airflow/dbt/target/semantic_manifest.json
+[0m00:09:19.726602 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/oliverzheng/Desktop/Airflow/dbt/target/run_results.json
+[0m00:09:19.727162 [info ] [MainThread]: 
+[0m00:09:19.728036 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m00:09:19.728664 [info ] [MainThread]: 
+[0m00:09:19.729285 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m00:09:19.735624 [debug] [MainThread]: Resource report: {"command_name": "snapshot", "command_success": true, "command_wall_clock_time": 10.481577, "process_in_blocks": "0", "process_kernel_time": 1.205147, "process_mem_max_rss": "200867840", "process_out_blocks": "0", "process_user_time": 4.61821}
+[0m00:09:19.736926 [debug] [MainThread]: Command `dbt snapshot` succeeded at 00:09:19.736413 after 10.48 seconds
+[0m00:09:19.738297 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109386e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105726550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105693f10>]}
+[0m00:09:19.739489 [debug] [MainThread]: Flushing usage events
+[0m00:09:20.150313 [debug] [MainThread]: An error was encountered while trying to flush usage events

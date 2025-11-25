@@ -1,12 +1,19 @@
 version: 2
 
 models:
-  - name: FCT_STOCK_ABSTRACT
-    description: "Analytics model for session data"
+  - name: stg_stock_prices
+    description: "Staging view for RAW.STOCK_PRICES with basic typing & deduping"
     columns:
-      - name: sessionId
-        description: "Unique identifier for each session"
-        tests:
-          - not_null
-          - unique
+      - name: symbol
+        tests: [not_null]
+      - name: dt
+        tests: [not_null]
+
+  - name: fct_stock_abstract
+    description: "Stock prices enriched with SMA(7/14/30), RSI(14), and 7-day momentum"
+    columns:
+      - name: symbol
+        tests: [not_null]
+      - name: dt
+        tests: [not_null]
 
