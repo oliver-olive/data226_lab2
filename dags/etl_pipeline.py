@@ -79,7 +79,7 @@ with DAG(
     catchup=False,
     tags=["ETL", "stocks"]
 ) as dag:
-    symbols = ["SOFI", "NVDA"]
+    symbols = Variable.get("symbols", deserialize_json=True)
     for symbol in symbols:
         raw_data = extract(symbol)
         transformed_data = transform(symbol, raw_data)
