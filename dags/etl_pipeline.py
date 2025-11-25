@@ -73,7 +73,7 @@ def load(records):
       conn.close()
 
 with DAG(
-    dag_id="stock_prices_dag_etl_lab1",
+    dag_id="stock_prices_dag_etl_lab2",
     start_date=datetime(2025, 11, 20),
     schedule_interval="0 9 * * *",
     catchup=False,
