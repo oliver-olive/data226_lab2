@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: raw
+    database: USER_DB_BOA
+    schema: RAW
+    tables:
+      - name: user_session_channel
+      - name: session_timestamp
+
+  - name: analytics
+    database: USER_DB_BOA
+    schema: ANALYTICS
+    tables:
+      - name: session_summary
+

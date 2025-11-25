@@ -1,0 +1,75 @@
+[2025-11-17T01:54:36.200+0000] {processor.py:186} INFO - Started process (PID=6108) to work on /opt/airflow/dags/hw8.py
+[2025-11-17T01:54:36.206+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw8.py for tasks to queue
+[2025-11-17T01:54:36.212+0000] {logging_mixin.py:190} INFO - [2025-11-17T01:54:36.210+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw8.py
+[2025-11-17T01:54:44.041+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-11-17T01:54:44.043+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/hw8.py
+[2025-11-17T01:54:44.198+0000] {logging_mixin.py:190} INFO - [2025-11-17T01:54:44.197+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-17T01:54:44.223+0000] {logging_mixin.py:190} INFO - [2025-11-17T01:54:44.222+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-11-13 00:00:00+00:00, run_after=2025-11-20 00:00:00+00:00
+[2025-11-17T01:54:44.246+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw8.py took 8.079 seconds
+[2025-11-17T02:55:37.772+0000] {processor.py:186} INFO - Started process (PID=6153) to work on /opt/airflow/dags/hw8.py
+[2025-11-17T02:55:37.774+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw8.py for tasks to queue
+[2025-11-17T02:55:37.778+0000] {logging_mixin.py:190} INFO - [2025-11-17T02:55:37.777+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw8.py
+[2025-11-17T02:55:45.512+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-11-17T02:55:45.515+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/hw8.py
+[2025-11-17T02:55:45.549+0000] {logging_mixin.py:190} INFO - [2025-11-17T02:55:45.549+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-17T02:55:45.575+0000] {logging_mixin.py:190} INFO - [2025-11-17T02:55:45.574+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-11-13 00:00:00+00:00, run_after=2025-11-20 00:00:00+00:00
+[2025-11-17T02:55:45.599+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw8.py took 7.842 seconds
+[2025-11-17T03:56:38.696+0000] {processor.py:186} INFO - Started process (PID=6200) to work on /opt/airflow/dags/hw8.py
+[2025-11-17T03:56:38.699+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw8.py for tasks to queue
+[2025-11-17T03:56:38.704+0000] {logging_mixin.py:190} INFO - [2025-11-17T03:56:38.703+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw8.py
+[2025-11-17T04:57:38.147+0000] {logging_mixin.py:190} INFO - [2025-11-17T04:57:38.141+0000] {timeout.py:68} ERROR - Process timed out, PID: 6200
+[2025-11-17T05:17:55.594+0000] {processor.py:186} INFO - Started process (PID=6271) to work on /opt/airflow/dags/hw8.py
+[2025-11-17T05:17:55.597+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw8.py for tasks to queue
+[2025-11-17T05:17:55.604+0000] {logging_mixin.py:190} INFO - [2025-11-17T05:17:55.603+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw8.py
+[2025-11-17T05:58:38.320+0000] {logging_mixin.py:190} INFO - [2025-11-17T05:58:38.314+0000] {timeout.py:68} ERROR - Process timed out, PID: 6271
+[2025-11-17T05:58:40.157+0000] {processor.py:186} INFO - Started process (PID=6321) to work on /opt/airflow/dags/hw8.py
+[2025-11-17T05:58:40.160+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw8.py for tasks to queue
+[2025-11-17T05:58:40.162+0000] {logging_mixin.py:190} INFO - [2025-11-17T05:58:40.161+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw8.py
+[2025-11-17T06:59:40.644+0000] {logging_mixin.py:190} INFO - [2025-11-17T06:59:40.643+0000] {timeout.py:68} ERROR - Process timed out, PID: 6321
+[2025-11-17T07:37:17.908+0000] {processor.py:186} INFO - Started process (PID=6394) to work on /opt/airflow/dags/hw8.py
+[2025-11-17T07:37:17.911+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw8.py for tasks to queue
+[2025-11-17T07:37:17.918+0000] {logging_mixin.py:190} INFO - [2025-11-17T07:37:17.917+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw8.py
+[2025-11-17T07:37:33.855+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-11-17T07:37:33.858+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/hw8.py
+[2025-11-17T07:37:34.048+0000] {logging_mixin.py:190} INFO - [2025-11-17T07:37:34.047+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-17T07:37:34.074+0000] {logging_mixin.py:190} INFO - [2025-11-17T07:37:34.073+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-11-13 00:00:00+00:00, run_after=2025-11-20 00:00:00+00:00
+[2025-11-17T07:37:34.097+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw8.py took 16.205 seconds
+[2025-11-17T08:00:47.149+0000] {processor.py:186} INFO - Started process (PID=6435) to work on /opt/airflow/dags/hw8.py
+[2025-11-17T08:00:47.164+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw8.py for tasks to queue
+[2025-11-17T08:00:47.201+0000] {logging_mixin.py:190} INFO - [2025-11-17T08:00:47.196+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw8.py
+[2025-11-17T08:01:15.447+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-11-17T08:01:15.455+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/hw8.py
+[2025-11-17T08:01:15.551+0000] {logging_mixin.py:190} INFO - [2025-11-17T08:01:15.550+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-17T08:01:15.585+0000] {logging_mixin.py:190} INFO - [2025-11-17T08:01:15.585+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-11-13 00:00:00+00:00, run_after=2025-11-20 00:00:00+00:00
+[2025-11-17T08:01:15.609+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw8.py took 28.547 seconds
+[2025-11-17T09:02:03.074+0000] {processor.py:186} INFO - Started process (PID=6468) to work on /opt/airflow/dags/hw8.py
+[2025-11-17T09:02:03.076+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw8.py for tasks to queue
+[2025-11-17T09:02:03.089+0000] {logging_mixin.py:190} INFO - [2025-11-17T09:02:03.087+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw8.py
+[2025-11-17T13:06:20.187+0000] {processor.py:186} INFO - Started process (PID=6529) to work on /opt/airflow/dags/hw8.py
+[2025-11-17T13:06:20.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw8.py for tasks to queue
+[2025-11-17T13:06:20.199+0000] {logging_mixin.py:190} INFO - [2025-11-17T13:06:20.198+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw8.py
+[2025-11-17T16:09:33.107+0000] {processor.py:186} INFO - Started process (PID=6591) to work on /opt/airflow/dags/hw8.py
+[2025-11-17T16:09:33.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw8.py for tasks to queue
+[2025-11-17T16:09:33.121+0000] {logging_mixin.py:190} INFO - [2025-11-17T16:09:33.118+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw8.py
+[2025-11-17T16:09:46.128+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-11-17T16:09:46.131+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/hw8.py
+[2025-11-17T16:09:46.329+0000] {logging_mixin.py:190} INFO - [2025-11-17T16:09:46.328+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-17T16:09:46.359+0000] {logging_mixin.py:190} INFO - [2025-11-17T16:09:46.358+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-11-13 00:00:00+00:00, run_after=2025-11-20 00:00:00+00:00
+[2025-11-17T16:09:46.387+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw8.py took 13.336 seconds
+[2025-11-17T17:10:43.853+0000] {processor.py:186} INFO - Started process (PID=6629) to work on /opt/airflow/dags/hw8.py
+[2025-11-17T17:10:43.859+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw8.py for tasks to queue
+[2025-11-17T17:10:43.869+0000] {logging_mixin.py:190} INFO - [2025-11-17T17:10:43.867+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw8.py
+[2025-11-17T19:12:55.433+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-11-17T19:12:55.443+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/hw8.py
+[2025-11-17T19:12:55.558+0000] {logging_mixin.py:190} INFO - [2025-11-17T19:12:55.557+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-17T21:15:04.663+0000] {processor.py:186} INFO - Started process (PID=6692) to work on /opt/airflow/dags/hw8.py
+[2025-11-17T21:15:04.669+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw8.py for tasks to queue
+[2025-11-17T21:15:04.677+0000] {logging_mixin.py:190} INFO - [2025-11-17T21:15:04.674+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw8.py
+[2025-11-17T23:57:42.149+0000] {processor.py:186} INFO - Started process (PID=6754) to work on /opt/airflow/dags/hw8.py
+[2025-11-17T23:57:42.161+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hw8.py for tasks to queue
+[2025-11-17T23:57:42.169+0000] {logging_mixin.py:190} INFO - [2025-11-17T23:57:42.166+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/hw8.py
+[2025-11-17T23:58:06.582+0000] {logging_mixin.py:190} INFO - {{ task_instance.xcom_pull(task_ids='preprocess_data', dag_id='Medium_to_Pinecone', key='return_value') }}
+[2025-11-17T23:58:06.587+0000] {processor.py:925} INFO - DAG(s) 'Medium_to_Pinecone' retrieved from /opt/airflow/dags/hw8.py
+[2025-11-17T23:58:06.856+0000] {logging_mixin.py:190} INFO - [2025-11-17T23:58:06.855+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-11-17T23:58:06.903+0000] {logging_mixin.py:190} INFO - [2025-11-17T23:58:06.903+0000] {dag.py:4156} INFO - Setting next_dagrun for Medium_to_Pinecone to 2025-11-13 00:00:00+00:00, run_after=2025-11-20 00:00:00+00:00
+[2025-11-17T23:58:06.939+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hw8.py took 24.868 seconds

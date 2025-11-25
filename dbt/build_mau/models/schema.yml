@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: session_summary
+    description: "Joined summary of sessions from RAW.user_session_channel and RAW.session_timestamp."
+    columns:
+      - name: sessionId
+        description: "Join key for a session."
+        data_tests:
+          - not_null
+          - unique

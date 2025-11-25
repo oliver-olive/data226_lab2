@@ -1,0 +1,30 @@
+[2025-10-06T02:23:29.638+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-10-06T02:23:29.829+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_prices_dag_etl_lab1.transform manual__2025-10-06T02:22:49.266669+00:00 [queued]>
+[2025-10-06T02:23:29.852+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_prices_dag_etl_lab1.transform manual__2025-10-06T02:22:49.266669+00:00 [queued]>
+[2025-10-06T02:23:29.853+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-10-06T02:23:29.885+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): transform> on 2025-10-06 02:22:49.266669+00:00
+[2025-10-06T02:23:30.013+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=2235) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-06T02:23:30.149+0000] {standard_task_runner.py:72} INFO - Started process 2259 to run task
+[2025-10-06T02:23:30.025+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'stock_prices_dag_etl_lab1', 'transform', 'manual__2025-10-06T02:22:49.266669+00:00', '--job-id', '35', '--raw', '--subdir', 'DAGS_FOLDER/lab1.py', '--cfg-path', '/tmp/tmp_zsq2fi6']
+[2025-10-06T02:23:30.333+0000] {standard_task_runner.py:105} INFO - Job 35: Subtask transform
+[2025-10-06T02:23:37.175+0000] {task_command.py:467} INFO - Running <TaskInstance: stock_prices_dag_etl_lab1.transform manual__2025-10-06T02:22:49.266669+00:00 [running]> on host 09b8d9c0c3f2
+[2025-10-06T02:23:37.958+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='stock_prices_dag_etl_lab1' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2025-10-06T02:22:49.266669+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-06T02:22:49.266669+00:00'
+[2025-10-06T02:23:37.966+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-10-06T02:23:37.982+0000] {python.py:240} INFO - Done. Returned value was:     symbol       date       open      close        low       high    volume
+0     SOFI 2025-01-16  15.700000  16.299999  15.570000  16.379999  43586900
+1     SOFI 2025-01-17  16.420000  16.500000  16.180000  16.730000  40496500
+2     SOFI 2025-01-21  17.000000  17.900000  16.889999  18.100000  67982600
+3     SOFI 2025-01-22  18.059999  17.590000  17.264999  18.059999  51349800
+4     SOFI 2025-01-23  17.400000  18.030001  17.280001  18.209999  43826700
+..     ...        ...        ...        ...        ...        ...       ...
+175   SOFI 2025-09-29  28.360001  27.549999  27.110001  28.629999  60395300
+176   SOFI 2025-09-30  27.469999  26.420000  25.700001  27.610001  94402900
+177   SOFI 2025-10-01  26.730000  25.760000  25.639999  27.330000  81148100
+178   SOFI 2025-10-02  26.330000  25.969999  25.450001  26.350000  65256700
+179   SOFI 2025-10-03  26.100000  25.240000  24.840000  26.180000  78201600
+
+[180 rows x 7 columns]
+[2025-10-06T02:23:38.067+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-10-06T02:23:38.069+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=stock_prices_dag_etl_lab1, task_id=transform, run_id=manual__2025-10-06T02:22:49.266669+00:00, execution_date=20251006T022249, start_date=20251006T022329, end_date=20251006T022338
+[2025-10-06T02:23:38.191+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-10-06T02:23:38.224+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

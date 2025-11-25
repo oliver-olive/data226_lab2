@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: FCT_STOCK_ABSTRACT
+    description: "Analytics model for session data"
+    columns:
+      - name: sessionId
+        description: "Unique identifier for each session"
+        tests:
+          - not_null
+          - unique
+

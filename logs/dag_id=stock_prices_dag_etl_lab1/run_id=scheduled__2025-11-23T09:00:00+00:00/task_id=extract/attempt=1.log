@@ -1,0 +1,64 @@
+[2025-11-25T05:38:04.382+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-25T05:38:04.421+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_prices_dag_etl_lab1.extract scheduled__2025-11-23T09:00:00+00:00 [queued]>
+[2025-11-25T05:38:04.436+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_prices_dag_etl_lab1.extract scheduled__2025-11-23T09:00:00+00:00 [queued]>
+[2025-11-25T05:38:04.437+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-11-25T05:38:04.464+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): extract> on 2025-11-23 09:00:00+00:00
+[2025-11-25T05:38:04.490+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=43653) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-25T05:38:04.495+0000] {standard_task_runner.py:72} INFO - Started process 43670 to run task
+[2025-11-25T05:38:04.494+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'stock_prices_dag_etl_lab1', 'extract', 'scheduled__2025-11-23T09:00:00+00:00', '--job-id', '159', '--raw', '--subdir', 'DAGS_FOLDER/lab1_pipeline.py', '--cfg-path', '/tmp/tmpxdzu4ruq']
+[2025-11-25T05:38:04.515+0000] {standard_task_runner.py:105} INFO - Job 159: Subtask extract
+[2025-11-25T05:38:04.630+0000] {task_command.py:467} INFO - Running <TaskInstance: stock_prices_dag_etl_lab1.extract scheduled__2025-11-23T09:00:00+00:00 [running]> on host b29649a78690
+[2025-11-25T05:38:05.999+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='stock_prices_dag_etl_lab1' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2025-11-23T09:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-23T09:00:00+00:00'
+[2025-11-25T05:38:06.001+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-25T05:38:06.009+0000] {logging_mixin.py:190} WARNING - /opt/***/dags/lab1_pipeline.py:16 FutureWarning: YF.download() has changed argument auto_adjust default to True
+[2025-11-25T05:38:07.097+0000] {logging_mixin.py:190} WARNING - [*********************100%***********************]  1 of 1 completed
+[2025-11-25T05:38:07.231+0000] {python.py:240} INFO - Done. Returned value was:           Date      Close       High        Low       Open    Volume
+0   2025-03-11  11.260000  11.497000  10.850000  11.060000  54907900
+1   2025-03-12  11.920000  12.120000  11.440000  11.860000  54143700
+2   2025-03-13  11.390000  12.090000  11.310000  12.000000  38157700
+3   2025-03-14  12.090000  12.120000  11.610000  11.690000  37484500
+4   2025-03-17  12.320000  12.470000  11.960000  12.080000  45612600
+..         ...        ...        ...        ...        ...       ...
+175 2025-11-18  26.240000  27.000000  25.709999  26.510000  66837600
+176 2025-11-19  26.719999  26.850000  25.559999  26.475000  63026400
+177 2025-11-20  24.910000  28.575001  24.745001  27.879999  98241000
+178 2025-11-21  25.190001  25.445000  23.520000  24.629999  90228900
+179 2025-11-24  27.400000  27.610001  25.655001  25.830000  63488000
+
+[180 rows x 6 columns]
+[2025-11-25T05:38:08.041+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-25T05:38:08.053+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=stock_prices_dag_etl_lab1, task_id=extract, run_id=scheduled__2025-11-23T09:00:00+00:00, execution_date=20251123T090000, start_date=20251125T053804, end_date=20251125T053808
+[2025-11-25T05:38:08.182+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-25T05:38:08.241+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-11-25T06:54:28.770+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-25T06:54:28.789+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_prices_dag_etl_lab1.extract scheduled__2025-11-23T09:00:00+00:00 [queued]>
+[2025-11-25T06:54:28.800+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_prices_dag_etl_lab1.extract scheduled__2025-11-23T09:00:00+00:00 [queued]>
+[2025-11-25T06:54:28.801+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-11-25T06:54:28.816+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): extract> on 2025-11-23 09:00:00+00:00
+[2025-11-25T06:54:28.832+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=49026) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-25T06:54:28.835+0000] {standard_task_runner.py:72} INFO - Started process 49039 to run task
+[2025-11-25T06:54:28.843+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'stock_prices_dag_etl_lab1', 'extract', 'scheduled__2025-11-23T09:00:00+00:00', '--job-id', '216', '--raw', '--subdir', 'DAGS_FOLDER/lab1_pipeline.py', '--cfg-path', '/tmp/tmptey47eh6']
+[2025-11-25T06:54:28.856+0000] {standard_task_runner.py:105} INFO - Job 216: Subtask extract
+[2025-11-25T06:54:28.993+0000] {task_command.py:467} INFO - Running <TaskInstance: stock_prices_dag_etl_lab1.extract scheduled__2025-11-23T09:00:00+00:00 [running]> on host b29649a78690
+[2025-11-25T06:54:29.920+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='stock_prices_dag_etl_lab1' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2025-11-23T09:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-23T09:00:00+00:00'
+[2025-11-25T06:54:29.921+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-25T06:54:29.925+0000] {logging_mixin.py:190} WARNING - /opt/***/dags/lab1_pipeline.py:16 FutureWarning: YF.download() has changed argument auto_adjust default to True
+[2025-11-25T06:54:30.275+0000] {logging_mixin.py:190} WARNING - [*********************100%***********************]  1 of 1 completed
+[2025-11-25T06:54:30.284+0000] {python.py:240} INFO - Done. Returned value was:           Date      Close       High        Low       Open    Volume
+0   2025-03-11  11.260000  11.497000  10.850000  11.060000  54907900
+1   2025-03-12  11.920000  12.120000  11.440000  11.860000  54143700
+2   2025-03-13  11.390000  12.090000  11.310000  12.000000  38157700
+3   2025-03-14  12.090000  12.120000  11.610000  11.690000  37484500
+4   2025-03-17  12.320000  12.470000  11.960000  12.080000  45612600
+..         ...        ...        ...        ...        ...       ...
+175 2025-11-18  26.240000  27.000000  25.709999  26.510000  66837600
+176 2025-11-19  26.719999  26.850000  25.559999  26.475000  63026400
+177 2025-11-20  24.910000  28.575001  24.745001  27.879999  98241000
+178 2025-11-21  25.190001  25.445000  23.520000  24.629999  90228900
+179 2025-11-24  27.400000  27.610001  25.655001  25.830000  63488000
+
+[180 rows x 6 columns]
+[2025-11-25T06:54:30.381+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-25T06:54:30.382+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=stock_prices_dag_etl_lab1, task_id=extract, run_id=scheduled__2025-11-23T09:00:00+00:00, execution_date=20251123T090000, start_date=20251125T065428, end_date=20251125T065430
+[2025-11-25T06:54:30.428+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-25T06:54:30.438+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

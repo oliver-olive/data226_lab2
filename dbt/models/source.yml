@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: RAW
+    tables:
+      - name: stock_prices     # RAW.STOCK_PRICES (symbol, date, open, high, low, close, volume)
+

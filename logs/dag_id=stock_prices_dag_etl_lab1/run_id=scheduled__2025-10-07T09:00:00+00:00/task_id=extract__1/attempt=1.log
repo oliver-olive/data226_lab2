@@ -1,0 +1,33 @@
+[2025-10-26T21:36:10.481+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-10-26T21:36:10.534+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_prices_dag_etl_lab1.extract__1 scheduled__2025-10-07T09:00:00+00:00 [queued]>
+[2025-10-26T21:36:10.547+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_prices_dag_etl_lab1.extract__1 scheduled__2025-10-07T09:00:00+00:00 [queued]>
+[2025-10-26T21:36:10.548+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-10-26T21:36:10.909+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): extract__1> on 2025-10-07 09:00:00+00:00
+[2025-10-26T21:36:10.931+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'stock_prices_dag_etl_lab1', 'extract__1', 'scheduled__2025-10-07T09:00:00+00:00', '--job-id', '90', '--raw', '--subdir', 'DAGS_FOLDER/lab1_pipeline.py', '--cfg-path', '/tmp/tmpo3ks5uci']
+[2025-10-26T21:36:10.937+0000] {standard_task_runner.py:105} INFO - Job 90: Subtask extract__1
+[2025-10-26T21:36:10.931+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=203) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-26T21:36:10.941+0000] {standard_task_runner.py:72} INFO - Started process 241 to run task
+[2025-10-26T21:36:11.100+0000] {task_command.py:467} INFO - Running <TaskInstance: stock_prices_dag_etl_lab1.extract__1 scheduled__2025-10-07T09:00:00+00:00 [running]> on host 09b8d9c0c3f2
+[2025-10-26T21:36:11.409+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='stock_prices_dag_etl_lab1' AIRFLOW_CTX_TASK_ID='extract__1' AIRFLOW_CTX_EXECUTION_DATE='2025-10-07T09:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-10-07T09:00:00+00:00'
+[2025-10-26T21:36:11.432+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-10-26T21:36:11.461+0000] {logging_mixin.py:190} WARNING - /opt/***/dags/lab1_pipeline.py:16 FutureWarning: YF.download() has changed argument auto_adjust default to True
+[2025-10-26T21:36:12.187+0000] {logging_mixin.py:190} WARNING - [*********************100%***********************]  1 of 1 completed
+[2025-10-26T21:36:12.223+0000] {python.py:240} INFO - Done. Returned value was:           Date       Close        High         Low        Open     Volume
+0   2025-02-07  129.811707  130.341590  124.972765  129.191847  228186300
+1   2025-02-10  133.540909  134.970590  129.931695  130.061656  216989100
+2   2025-02-11  132.771088  134.450715  130.991476  132.551134  178902400
+3   2025-02-12  131.111435  132.211201  129.051886  129.991684  160278600
+4   2025-02-13  135.260529  136.470272  131.141431  131.531345  197430000
+..         ...         ...         ...         ...         ...        ...
+175 2025-10-20  182.639999  185.199997  181.729996  183.130005  128544700
+176 2025-10-21  181.160004  182.789993  179.800003  182.789993  124240200
+177 2025-10-22  180.279999  183.440002  176.759995  181.139999  162249600
+178 2025-10-23  182.160004  183.029999  179.789993  180.419998  111363700
+179 2025-10-24  186.259995  187.470001  183.500000  183.839996  130942300
+
+[180 rows x 6 columns]
+[2025-10-26T21:36:12.450+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-10-26T21:36:12.451+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=stock_prices_dag_etl_lab1, task_id=extract__1, run_id=scheduled__2025-10-07T09:00:00+00:00, execution_date=20251007T090000, start_date=20251026T213610, end_date=20251026T213612
+[2025-10-26T21:36:12.532+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-10-26T21:36:12.596+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-10-26T21:36:12.607+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

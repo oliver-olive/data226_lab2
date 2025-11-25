@@ -1,0 +1,30 @@
+[2025-10-27T03:24:40.369+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-10-27T03:24:40.388+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: COPY_INTO_DATABASE_FROM_AWS.create_table_and_stage_and_copy manual__2025-10-27T03:24:38.006262+00:00 [queued]>
+[2025-10-27T03:24:40.397+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: COPY_INTO_DATABASE_FROM_AWS.create_table_and_stage_and_copy manual__2025-10-27T03:24:38.006262+00:00 [queued]>
+[2025-10-27T03:24:40.398+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-10-27T03:24:40.410+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): create_table_and_stage_and_copy> on 2025-10-27 03:24:38.006262+00:00
+[2025-10-27T03:24:40.430+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=8321) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-27T03:24:40.432+0000] {standard_task_runner.py:72} INFO - Started process 8324 to run task
+[2025-10-27T03:24:40.429+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'COPY_INTO_DATABASE_FROM_AWS', 'create_table_and_stage_and_copy', 'manual__2025-10-27T03:24:38.006262+00:00', '--job-id', '116', '--raw', '--subdir', 'DAGS_FOLDER/hw6_pt1.py', '--cfg-path', '/tmp/tmpoh20eed5']
+[2025-10-27T03:24:40.432+0000] {standard_task_runner.py:105} INFO - Job 116: Subtask create_table_and_stage_and_copy
+[2025-10-27T03:24:40.485+0000] {task_command.py:467} INFO - Running <TaskInstance: COPY_INTO_DATABASE_FROM_AWS.create_table_and_stage_and_copy manual__2025-10-27T03:24:38.006262+00:00 [running]> on host 09b8d9c0c3f2
+[2025-10-27T03:24:40.583+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='COPY_INTO_DATABASE_FROM_AWS' AIRFLOW_CTX_TASK_ID='create_table_and_stage_and_copy' AIRFLOW_CTX_EXECUTION_DATE='2025-10-27T03:24:38.006262+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-27T03:24:38.006262+00:00'
+[2025-10-27T03:24:40.585+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-10-27T03:24:40.599+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-10-27T03:24:40.600+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.10.14-linuxkit-x86_64-with-glibc2.36
+[2025-10-27T03:24:40.601+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-27T03:24:40.601+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-27T03:24:41.455+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-27T03:24:41.540+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-27T03:24:41.645+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-27T03:24:41.734+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-27T03:24:41.920+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-27T03:24:42.357+0000] {cursor.py:1156} INFO - Number of results in first chunk: 0
+[2025-10-27T03:24:42.600+0000] {cursor.py:1156} INFO - Number of results in first chunk: 0
+[2025-10-27T03:24:42.816+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-27T03:24:42.822+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-10-27T03:24:42.870+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-10-27T03:24:42.871+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=COPY_INTO_DATABASE_FROM_AWS, task_id=create_table_and_stage_and_copy, run_id=manual__2025-10-27T03:24:38.006262+00:00, execution_date=20251027T032438, start_date=20251027T032440, end_date=20251027T032442
+[2025-10-27T03:24:42.925+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-10-27T03:24:42.958+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-10-27T03:24:42.959+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
